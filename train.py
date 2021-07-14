@@ -5,6 +5,8 @@ import shutil
 import time
 import warnings
 
+import tensorboardX as tb
+
 import torch
 import torch.nn as nn
 import torch.nn.parallel
@@ -324,6 +326,10 @@ def train(train_loader, model, criterion, optimizer, epoch, args, lr_scheduler):
             progress.display(i)
         if i % 1000 == 0:
             print('cur lr: ', lr_scheduler.get_lr()[0])
+        if i % 5000 == 0:
+            writer.add_scalar('loss', losses.val, epoch)
+            writer.add_scalars('acc', {'acc@1': top1.val, 'acc@5': top5.val}, epoch)
+            writer.add_scalar('lr', lr_scheduler.get_lr()[0], epoch)
 
 
 
@@ -374,13 +380,16 @@ def validate(val_loader, model, criterion, args):
     return top1.avg
 
 
-def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
+def save_checkpoint(state, is_best, filename='/output/checkpoint.pth.tar'):
     torch.save(state, filename)
     if is_best:
-        shutil.copyfile(filename, 'model_best.pth.tar')
+        shutil.copyfile(filename, '/output/model_best.pth.tar')
 
 
 
 
 if __name__ == '__main__':
+    #initialize tensorboard
+    writer = tb.SummaryWriter(log_dir='/output/logs')
     main()
+    writer.close
