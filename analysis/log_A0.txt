@@ -1,0 +1,1374 @@
+RepVGG Block, identity =  None
+RepVGG Block, identity =  None
+RepVGG Block, identity =  BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  None
+RepVGG Block, identity =  BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  None
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+RepVGG Block, identity =  None
+set weight decay=0 for module.stage0.rbr_dense.bn.weight
+set weight decay=0 for module.stage0.rbr_dense.bn.bias
+set weight decay=0 for module.stage0.rbr_1x1.bn.weight
+set weight decay=0 for module.stage0.rbr_1x1.bn.bias
+set weight decay=0 for module.stage1.0.rbr_dense.bn.weight
+set weight decay=0 for module.stage1.0.rbr_dense.bn.bias
+set weight decay=0 for module.stage1.0.rbr_1x1.bn.weight
+set weight decay=0 for module.stage1.0.rbr_1x1.bn.bias
+set weight decay=0 for module.stage1.1.rbr_identity.bias
+set weight decay=0 for module.stage1.1.rbr_dense.bn.weight
+set weight decay=0 for module.stage1.1.rbr_dense.bn.bias
+set weight decay=0 for module.stage1.1.rbr_1x1.bn.weight
+set weight decay=0 for module.stage1.1.rbr_1x1.bn.bias
+set weight decay=0 for module.stage2.0.rbr_dense.bn.weight
+set weight decay=0 for module.stage2.0.rbr_dense.bn.bias
+set weight decay=0 for module.stage2.0.rbr_1x1.bn.weight
+set weight decay=0 for module.stage2.0.rbr_1x1.bn.bias
+set weight decay=0 for module.stage2.1.rbr_identity.bias
+set weight decay=0 for module.stage2.1.rbr_dense.bn.weight
+set weight decay=0 for module.stage2.1.rbr_dense.bn.bias
+set weight decay=0 for module.stage2.1.rbr_1x1.bn.weight
+set weight decay=0 for module.stage2.1.rbr_1x1.bn.bias
+set weight decay=0 for module.stage2.2.rbr_identity.bias
+set weight decay=0 for module.stage2.2.rbr_dense.bn.weight
+set weight decay=0 for module.stage2.2.rbr_dense.bn.bias
+set weight decay=0 for module.stage2.2.rbr_1x1.bn.weight
+set weight decay=0 for module.stage2.2.rbr_1x1.bn.bias
+set weight decay=0 for module.stage2.3.rbr_identity.bias
+set weight decay=0 for module.stage2.3.rbr_dense.bn.weight
+set weight decay=0 for module.stage2.3.rbr_dense.bn.bias
+set weight decay=0 for module.stage2.3.rbr_1x1.bn.weight
+set weight decay=0 for module.stage2.3.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.0.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.0.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.0.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.0.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.1.rbr_identity.bias
+set weight decay=0 for module.stage3.1.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.1.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.1.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.1.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.2.rbr_identity.bias
+set weight decay=0 for module.stage3.2.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.2.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.2.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.2.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.3.rbr_identity.bias
+set weight decay=0 for module.stage3.3.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.3.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.3.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.3.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.4.rbr_identity.bias
+set weight decay=0 for module.stage3.4.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.4.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.4.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.4.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.5.rbr_identity.bias
+set weight decay=0 for module.stage3.5.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.5.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.5.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.5.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.6.rbr_identity.bias
+set weight decay=0 for module.stage3.6.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.6.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.6.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.6.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.7.rbr_identity.bias
+set weight decay=0 for module.stage3.7.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.7.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.7.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.7.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.8.rbr_identity.bias
+set weight decay=0 for module.stage3.8.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.8.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.8.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.8.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.9.rbr_identity.bias
+set weight decay=0 for module.stage3.9.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.9.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.9.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.9.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.10.rbr_identity.bias
+set weight decay=0 for module.stage3.10.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.10.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.10.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.10.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.11.rbr_identity.bias
+set weight decay=0 for module.stage3.11.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.11.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.11.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.11.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.12.rbr_identity.bias
+set weight decay=0 for module.stage3.12.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.12.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.12.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.12.rbr_1x1.bn.bias
+set weight decay=0 for module.stage3.13.rbr_identity.bias
+set weight decay=0 for module.stage3.13.rbr_dense.bn.weight
+set weight decay=0 for module.stage3.13.rbr_dense.bn.bias
+set weight decay=0 for module.stage3.13.rbr_1x1.bn.weight
+set weight decay=0 for module.stage3.13.rbr_1x1.bn.bias
+set weight decay=0 for module.stage4.0.rbr_dense.bn.weight
+set weight decay=0 for module.stage4.0.rbr_dense.bn.bias
+set weight decay=0 for module.stage4.0.rbr_1x1.bn.weight
+set weight decay=0 for module.stage4.0.rbr_1x1.bn.bias
+set weight decay=0 for module.linear.bias
+Epoch: [0][    0/10010]	Time 14.467 (14.467)	Data 12.648 (12.648)	Loss 6.9731e+00 (6.9731e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.00)
+cur lr:  0.09999999999982896
+Epoch: [0][ 1000/10010]	Time  0.233 ( 1.685)	Data  0.000 ( 1.466)	Loss 6.3308e+00 (6.6092e+00)	Acc@1   3.12 (  0.67)	Acc@5   7.81 (  2.78)
+cur lr:  0.09999982862255416
+Epoch: [0][ 2000/10010]	Time  0.233 ( 1.671)	Data  0.000 ( 1.456)	Loss 5.6495e+00 (6.2994e+00)	Acc@1   1.56 (  1.45)	Acc@5  15.62 (  5.40)
+cur lr:  0.09999931517604262
+Epoch: [0][ 3000/10010]	Time  6.237 ( 1.687)	Data  6.126 ( 1.475)	Loss 5.3093e+00 (6.0611e+00)	Acc@1   6.25 (  2.40)	Acc@5  14.84 (  8.12)
+cur lr:  0.09999845966380703
+Epoch: [0][ 4000/10010]	Time  0.235 ( 1.721)	Data  0.000 ( 1.511)	Loss 5.0193e+00 (5.8654e+00)	Acc@1   6.25 (  3.41)	Acc@5  16.41 ( 10.75)
+cur lr:  0.09999726209170032
+Epoch: [0][ 5000/10010]	Time  0.234 ( 1.755)	Data  0.000 ( 1.544)	Loss 4.8464e+00 (5.6994e+00)	Acc@1   7.81 (  4.49)	Acc@5  25.78 ( 13.23)
+cur lr:  0.09999572246791555
+Epoch: [0][ 6000/10010]	Time  0.234 ( 1.732)	Data  0.000 ( 1.521)	Loss 4.6029e+00 (5.5510e+00)	Acc@1  12.50 (  5.58)	Acc@5  31.25 ( 15.59)
+cur lr:  0.09999384080298594
+Epoch: [0][ 7000/10010]	Time  0.233 ( 1.692)	Data  0.000 ( 1.481)	Loss 4.9567e+00 (5.4170e+00)	Acc@1   9.38 (  6.67)	Acc@5  24.22 ( 17.82)
+cur lr:  0.09999161710978471
+Epoch: [0][ 8000/10010]	Time  0.189 ( 1.679)	Data  0.000 ( 1.468)	Loss 4.5881e+00 (5.2967e+00)	Acc@1  12.50 (  7.73)	Acc@5  33.59 ( 19.88)
+cur lr:  0.09998905140352504
+Epoch: [0][ 9000/10010]	Time  0.234 ( 1.704)	Data  0.000 ( 1.494)	Loss 4.5988e+00 (5.1871e+00)	Acc@1  11.72 (  8.75)	Acc@5  28.91 ( 21.78)
+cur lr:  0.09998614370176001
+Epoch: [0][10000/10010]	Time  4.506 ( 1.699)	Data  4.396 ( 1.490)	Loss 4.5556e+00 (5.0862e+00)	Acc@1  11.72 (  9.74)	Acc@5  32.81 ( 23.59)
+cur lr:  0.09998289402438237
+Test: [  0/391]	Time  8.357 ( 8.357)	Loss 3.0083e+00 (3.0083e+00)	Acc@1  30.47 ( 30.47)	Acc@5  65.62 ( 65.62)
+ * Acc@1 19.260 Acc@5 41.144
+Epoch: [1][    0/10010]	Time 10.341 (10.341)	Data 10.220 (10.220)	Loss 4.2479e+00 (4.2479e+00)	Acc@1  17.19 ( 17.19)	Acc@5  40.62 ( 40.62)
+cur lr:  0.09998285980070501
+Epoch: [1][ 1000/10010]	Time 20.294 ( 1.795)	Data 20.163 ( 1.578)	Loss 4.1787e+00 (4.0575e+00)	Acc@1  17.19 ( 20.24)	Acc@5  39.84 ( 41.85)
+cur lr:  0.09997926475053352
+Epoch: [1][ 2000/10010]	Time  0.247 ( 1.735)	Data  0.000 ( 1.522)	Loss 3.7919e+00 (4.0090e+00)	Acc@1  23.44 ( 20.88)	Acc@5  44.53 ( 42.84)
+cur lr:  0.09997532777181115
+Epoch: [1][ 3000/10010]	Time  0.234 ( 1.740)	Data  0.000 ( 1.530)	Loss 3.7046e+00 (3.9734e+00)	Acc@1  24.22 ( 21.39)	Acc@5  46.88 ( 43.59)
+cur lr:  0.09997104889147235
+Epoch: [1][ 4000/10010]	Time  0.235 ( 1.791)	Data  0.000 ( 1.582)	Loss 3.9256e+00 (3.9325e+00)	Acc@1  22.66 ( 22.03)	Acc@5  49.22 ( 44.38)
+cur lr:  0.09996642813879071
+Epoch: [1][ 5000/10010]	Time  0.234 ( 1.801)	Data  0.001 ( 1.591)	Loss 3.7415e+00 (3.8933e+00)	Acc@1  25.00 ( 22.61)	Acc@5  47.66 ( 45.16)
+cur lr:  0.09996146554537867
+Epoch: [1][ 6000/10010]	Time  0.246 ( 1.823)	Data  0.000 ( 1.613)	Loss 3.7023e+00 (3.8567e+00)	Acc@1  30.47 ( 23.15)	Acc@5  42.97 ( 45.86)
+cur lr:  0.09995616114518738
+Epoch: [1][ 7000/10010]	Time  0.206 ( 1.796)	Data  0.000 ( 1.587)	Loss 3.3698e+00 (3.8227e+00)	Acc@1  31.25 ( 23.66)	Acc@5  50.78 ( 46.51)
+cur lr:  0.09995051497450638
+Epoch: [1][ 8000/10010]	Time  5.418 ( 1.792)	Data  5.304 ( 1.584)	Loss 3.3938e+00 (3.7917e+00)	Acc@1  28.12 ( 24.16)	Acc@5  49.22 ( 47.10)
+cur lr:  0.09994452707196344
+Epoch: [1][ 9000/10010]	Time  0.230 ( 1.771)	Data  0.000 ( 1.563)	Loss 3.1184e+00 (3.7625e+00)	Acc@1  34.38 ( 24.61)	Acc@5  58.59 ( 47.67)
+cur lr:  0.09993819747852427
+Epoch: [1][10000/10010]	Time  0.234 ( 1.746)	Data  0.000 ( 1.539)	Loss 3.5144e+00 (3.7355e+00)	Acc@1  29.69 ( 25.01)	Acc@5  55.47 ( 48.19)
+cur lr:  0.09993152623749216
+Test: [  0/391]	Time  7.876 ( 7.876)	Loss 2.0173e+00 (2.0173e+00)	Acc@1  55.47 ( 55.47)	Acc@5  81.25 ( 81.25)
+ * Acc@1 29.212 Acc@5 54.932
+Epoch: [2][    0/10010]	Time 11.121 (11.121)	Data 10.991 (10.991)	Loss 3.1567e+00 (3.1567e+00)	Acc@1  33.59 ( 33.59)	Acc@5  64.84 ( 64.84)
+cur lr:  0.09993145779991396
+Epoch: [2][ 1000/10010]	Time  0.237 ( 1.625)	Data  0.000 ( 1.414)	Loss 3.2871e+00 (3.4227e+00)	Acc@1  30.47 ( 29.70)	Acc@5  58.59 ( 54.06)
+cur lr:  0.09992444154114849
+Epoch: [2][ 2000/10010]	Time  7.687 ( 1.584)	Data  7.577 ( 1.373)	Loss 3.3859e+00 (3.4075e+00)	Acc@1  25.00 ( 30.00)	Acc@5  49.22 ( 54.32)
+cur lr:  0.09991708372890007
+Epoch: [2][ 3000/10010]	Time  0.253 ( 1.564)	Data  0.000 ( 1.354)	Loss 3.2087e+00 (3.3932e+00)	Acc@1  32.81 ( 30.23)	Acc@5  58.59 ( 54.56)
+cur lr:  0.09990938441350651
+Epoch: [2][ 4000/10010]	Time  6.495 ( 1.590)	Data  6.385 ( 1.381)	Loss 3.3536e+00 (3.3782e+00)	Acc@1  26.56 ( 30.45)	Acc@5  58.59 ( 54.84)
+cur lr:  0.09990134364764197
+Epoch: [2][ 5000/10010]	Time  0.822 ( 1.619)	Data  0.713 ( 1.410)	Loss 3.5764e+00 (3.3658e+00)	Acc@1  25.00 ( 30.67)	Acc@5  54.69 ( 55.06)
+cur lr:  0.09989296148631661
+Epoch: [2][ 6000/10010]	Time  8.183 ( 1.627)	Data  8.073 ( 1.417)	Loss 3.6644e+00 (3.3534e+00)	Acc@1  28.12 ( 30.87)	Acc@5  50.00 ( 55.31)
+cur lr:  0.09988423798687623
+Epoch: [2][ 7000/10010]	Time  0.252 ( 1.639)	Data  0.000 ( 1.428)	Loss 3.6372e+00 (3.3395e+00)	Acc@1  21.09 ( 31.10)	Acc@5  48.44 ( 55.58)
+cur lr:  0.09987517320900181
+Epoch: [2][ 8000/10010]	Time  0.259 ( 1.628)	Data  0.000 ( 1.417)	Loss 3.2665e+00 (3.3306e+00)	Acc@1  36.72 ( 31.27)	Acc@5  58.59 ( 55.76)
+cur lr:  0.09986576721470924
+Epoch: [2][ 9000/10010]	Time  0.246 ( 1.658)	Data  0.000 ( 1.447)	Loss 2.9055e+00 (3.3180e+00)	Acc@1  35.16 ( 31.48)	Acc@5  65.62 ( 55.99)
+cur lr:  0.09985602006834876
+Epoch: [2][10000/10010]	Time  9.599 ( 1.669)	Data  9.489 ( 1.458)	Loss 3.0528e+00 (3.3079e+00)	Acc@1  36.72 ( 31.65)	Acc@5  64.06 ( 56.18)
+cur lr:  0.09984593183660453
+Test: [  0/391]	Time 10.946 (10.946)	Loss 1.4237e+00 (1.4237e+00)	Acc@1  70.31 ( 70.31)	Acc@5  84.38 ( 84.38)
+ * Acc@1 36.012 Acc@5 62.454
+Epoch: [3][    0/10010]	Time 13.026 (13.026)	Data 12.904 (12.904)	Loss 3.4877e+00 (3.4877e+00)	Acc@1  37.50 ( 37.50)	Acc@5  54.69 ( 54.69)
+cur lr:  0.09984582923203747
+Epoch: [3][ 1000/10010]	Time  0.232 ( 2.194)	Data  0.000 ( 1.988)	Loss 3.0123e+00 (3.1586e+00)	Acc@1  35.94 ( 34.18)	Acc@5  62.50 ( 58.77)
+cur lr:  0.09983539657412004
+Epoch: [3][ 2000/10010]	Time  0.265 ( 2.027)	Data  0.000 ( 1.817)	Loss 3.2993e+00 (3.1529e+00)	Acc@1  32.81 ( 34.22)	Acc@5  57.03 ( 58.96)
+cur lr:  0.09982462297191262
+Epoch: [3][ 3000/10010]	Time  0.233 ( 1.938)	Data  0.000 ( 1.726)	Loss 2.5121e+00 (3.1518e+00)	Acc@1  43.75 ( 34.25)	Acc@5  64.84 ( 58.94)
+cur lr:  0.09981350849912185
+Epoch: [3][ 4000/10010]	Time  0.235 ( 1.852)	Data  0.000 ( 1.642)	Loss 2.7325e+00 (3.1472e+00)	Acc@1  42.97 ( 34.29)	Acc@5  67.97 ( 59.03)
+cur lr:  0.09980205323178636
+Epoch: [3][ 5000/10010]	Time  0.227 ( 1.834)	Data  0.000 ( 1.623)	Loss 2.9808e+00 (3.1409e+00)	Acc@1  40.62 ( 34.44)	Acc@5  60.94 ( 59.17)
+cur lr:  0.09979025724827631
+Epoch: [3][ 6000/10010]	Time  0.251 ( 1.794)	Data  0.000 ( 1.583)	Loss 3.3265e+00 (3.1348e+00)	Acc@1  29.69 ( 34.57)	Acc@5  56.25 ( 59.26)
+cur lr:  0.09977812062929284
+Epoch: [3][ 7000/10010]	Time  8.295 ( 1.841)	Data  8.175 ( 1.630)	Loss 3.0984e+00 (3.1291e+00)	Acc@1  34.38 ( 34.64)	Acc@5  59.38 ( 59.37)
+cur lr:  0.09976564345786752
+Epoch: [3][ 8000/10010]	Time  1.772 ( 1.818)	Data  1.662 ( 1.607)	Loss 2.9322e+00 (3.1238e+00)	Acc@1  32.03 ( 34.74)	Acc@5  60.94 ( 59.49)
+cur lr:  0.09975282581936176
+Epoch: [3][ 9000/10010]	Time  0.232 ( 1.814)	Data  0.000 ( 1.603)	Loss 3.5735e+00 (3.1189e+00)	Acc@1  31.25 ( 34.83)	Acc@5  54.69 ( 59.58)
+cur lr:  0.09973966780146627
+Epoch: [3][10000/10010]	Time  0.235 ( 1.829)	Data  0.015 ( 1.619)	Loss 3.1181e+00 (3.1143e+00)	Acc@1  35.94 ( 34.91)	Acc@5  62.50 ( 59.68)
+cur lr:  0.09972616949420042
+Test: [  0/391]	Time 11.796 (11.796)	Loss 2.0040e+00 (2.0040e+00)	Acc@1  54.69 ( 54.69)	Acc@5  79.69 ( 79.69)
+ * Acc@1 36.678 Acc@5 62.782
+Epoch: [4][    0/10010]	Time 13.471 (13.471)	Data 13.346 (13.346)	Loss 2.8455e+00 (2.8455e+00)	Acc@1  37.50 ( 37.50)	Acc@5  59.38 ( 59.38)
+cur lr:  0.09972603279297694
+Epoch: [4][ 1000/10010]	Time 44.409 ( 1.667)	Data 44.159 ( 1.456)	Loss 2.9576e+00 (3.0171e+00)	Acc@1  39.84 ( 36.34)	Acc@5  62.50 ( 61.40)
+cur lr:  0.09971219088719217
+Epoch: [4][ 2000/10010]	Time 35.048 ( 1.742)	Data 34.910 ( 1.534)	Loss 2.7818e+00 (3.0224e+00)	Acc@1  35.16 ( 36.41)	Acc@5  64.06 ( 61.33)
+cur lr:  0.09969800888001779
+Epoch: [4][ 3000/10010]	Time  1.000 ( 1.706)	Data  0.887 ( 1.497)	Loss 3.1421e+00 (3.0196e+00)	Acc@1  33.59 ( 36.48)	Acc@5  57.81 ( 61.37)
+cur lr:  0.09968348686847875
+Epoch: [4][ 4000/10010]	Time  0.237 ( 1.783)	Data  0.000 ( 1.573)	Loss 2.8114e+00 (3.0201e+00)	Acc@1  42.97 ( 36.48)	Acc@5  67.19 ( 61.37)
+cur lr:  0.09966862495192604
+Epoch: [4][ 5000/10010]	Time  0.233 ( 1.795)	Data  0.000 ( 1.587)	Loss 2.9471e+00 (3.0195e+00)	Acc@1  37.50 ( 36.50)	Acc@5  60.94 ( 61.38)
+cur lr:  0.0996534232320361
+Epoch: [4][ 6000/10010]	Time  0.232 ( 1.758)	Data  0.000 ( 1.550)	Loss 2.9479e+00 (3.0162e+00)	Acc@1  37.50 ( 36.55)	Acc@5  59.38 ( 61.44)
+cur lr:  0.09963788181281011
+Epoch: [4][ 7000/10010]	Time  0.232 ( 1.767)	Data  0.000 ( 1.560)	Loss 3.2841e+00 (3.0130e+00)	Acc@1  30.47 ( 36.60)	Acc@5  57.81 ( 61.51)
+cur lr:  0.09962200080057322
+Epoch: [4][ 8000/10010]	Time 10.068 ( 1.756)	Data  9.958 ( 1.549)	Loss 3.2699e+00 (3.0083e+00)	Acc@1  30.47 ( 36.66)	Acc@5  59.38 ( 61.59)
+cur lr:  0.09960578030397399
+Epoch: [4][ 9000/10010]	Time  0.247 ( 1.783)	Data  0.000 ( 1.576)	Loss 2.8332e+00 (3.0029e+00)	Acc@1  39.06 ( 36.74)	Acc@5  64.84 ( 61.68)
+cur lr:  0.09958922043398338
+Epoch: [4][10000/10010]	Time  0.547 ( 1.812)	Data  0.433 ( 1.605)	Loss 2.9846e+00 (2.9994e+00)	Acc@1  40.62 ( 36.80)	Acc@5  59.38 ( 61.76)
+cur lr:  0.09957232130389426
+Test: [  0/391]	Time  9.473 ( 9.473)	Loss 1.5362e+00 (1.5362e+00)	Acc@1  71.88 ( 71.88)	Acc@5  81.25 ( 81.25)
+ * Acc@1 39.416 Acc@5 65.900
+Epoch: [5][    0/10010]	Time 12.049 (12.049)	Data 11.927 (11.927)	Loss 3.0699e+00 (3.0699e+00)	Acc@1  37.50 ( 37.50)	Acc@5  60.94 ( 60.94)
+cur lr:  0.09957215059971912
+Epoch: [5][ 1000/10010]	Time  0.237 ( 2.103)	Data  0.000 ( 1.899)	Loss 2.6382e+00 (2.9297e+00)	Acc@1  40.62 ( 38.05)	Acc@5  65.62 ( 63.04)
+cur lr:  0.0995549089342922
+Epoch: [5][ 2000/10010]	Time 25.043 ( 2.080)	Data 24.901 ( 1.875)	Loss 2.8488e+00 (2.9274e+00)	Acc@1  39.06 ( 38.06)	Acc@5  67.19 ( 63.09)
+cur lr:  0.09953732824350575
+Epoch: [5][ 3000/10010]	Time  0.242 ( 2.083)	Data  0.000 ( 1.878)	Loss 2.7248e+00 (2.9309e+00)	Acc@1  42.19 ( 37.97)	Acc@5  67.97 ( 62.99)
+cur lr:  0.09951940864763643
+Epoch: [5][ 4000/10010]	Time  0.235 ( 2.017)	Data  0.000 ( 1.813)	Loss 2.8570e+00 (2.9304e+00)	Acc@1  41.41 ( 38.01)	Acc@5  62.50 ( 63.02)
+cur lr:  0.09950115026927953
+Epoch: [5][ 5000/10010]	Time  0.240 ( 1.963)	Data  0.000 ( 1.757)	Loss 2.6921e+00 (2.9264e+00)	Acc@1  45.31 ( 38.07)	Acc@5  66.41 ( 63.10)
+cur lr:  0.09948255323334808
+Epoch: [5][ 6000/10010]	Time  0.235 ( 1.906)	Data  0.000 ( 1.699)	Loss 2.8088e+00 (2.9258e+00)	Acc@1  39.84 ( 38.09)	Acc@5  64.06 ( 63.10)
+cur lr:  0.09946361766707196
+Epoch: [5][ 7000/10010]	Time  0.234 ( 1.876)	Data  0.000 ( 1.669)	Loss 3.3615e+00 (2.9228e+00)	Acc@1  32.03 ( 38.14)	Acc@5  57.81 ( 63.14)
+cur lr:  0.09944434369999712
+Epoch: [5][ 8000/10010]	Time  1.911 ( 1.854)	Data  1.801 ( 1.647)	Loss 2.9984e+00 (2.9209e+00)	Acc@1  36.72 ( 38.19)	Acc@5  57.03 ( 63.17)
+cur lr:  0.09942473146398466
+Epoch: [5][ 9000/10010]	Time  0.239 ( 1.848)	Data  0.000 ( 1.642)	Loss 2.9795e+00 (2.9191e+00)	Acc@1  28.91 ( 38.21)	Acc@5  64.84 ( 63.19)
+cur lr:  0.09940478109320985
+Epoch: [5][10000/10010]	Time  0.235 ( 1.851)	Data  0.000 ( 1.646)	Loss 2.6042e+00 (2.9182e+00)	Acc@1  50.00 ( 38.23)	Acc@5  67.97 ( 63.20)
+cur lr:  0.09938449272416135
+Test: [  0/391]	Time  9.646 ( 9.646)	Loss 1.9560e+00 (1.9560e+00)	Acc@1  61.72 ( 61.72)	Acc@5  80.47 ( 80.47)
+ * Acc@1 41.486 Acc@5 67.502
+Epoch: [6][    0/10010]	Time 12.864 (12.864)	Data 12.738 (12.738)	Loss 3.0184e+00 (3.0184e+00)	Acc@1  37.50 ( 37.50)	Acc@5  64.84 ( 64.84)
+cur lr:  0.09938428813404727
+Epoch: [6][ 1000/10010]	Time  0.229 ( 2.402)	Data  0.000 ( 2.196)	Loss 2.7983e+00 (2.8523e+00)	Acc@1  44.53 ( 39.36)	Acc@5  62.50 ( 64.37)
+cur lr:  0.09936365852764013
+Epoch: [6][ 2000/10010]	Time  1.032 ( 2.069)	Data  0.923 ( 1.866)	Loss 3.1476e+00 (2.8615e+00)	Acc@1  41.41 ( 39.19)	Acc@5  59.38 ( 64.23)
+cur lr:  0.09934269120429556
+Epoch: [6][ 3000/10010]	Time  0.221 ( 1.688)	Data  0.000 ( 1.486)	Loss 2.7530e+00 (2.8658e+00)	Acc@1  39.06 ( 39.14)	Acc@5  60.16 ( 64.12)
+cur lr:  0.09932138630745956
+Epoch: [6][ 4000/10010]	Time  0.282 ( 1.508)	Data  0.000 ( 1.303)	Loss 2.8097e+00 (2.8701e+00)	Acc@1  44.53 ( 39.07)	Acc@5  64.06 ( 64.04)
+cur lr:  0.09929974398288761
+Epoch: [6][ 5000/10010]	Time  0.255 ( 1.390)	Data  0.000 ( 1.180)	Loss 3.2727e+00 (2.8678e+00)	Acc@1  34.38 ( 39.08)	Acc@5  58.59 ( 64.08)
+cur lr:  0.09927776437864373
+Epoch: [6][ 6000/10010]	Time  0.247 ( 1.315)	Data  0.000 ( 1.107)	Loss 2.6354e+00 (2.8680e+00)	Acc@1  39.06 ( 39.09)	Acc@5  66.41 ( 64.10)
+cur lr:  0.09925544764509936
+Epoch: [6][ 7000/10010]	Time  0.265 ( 1.262)	Data  0.000 ( 1.052)	Loss 2.7575e+00 (2.8659e+00)	Acc@1  39.84 ( 39.12)	Acc@5  69.53 ( 64.13)
+cur lr:  0.09923279393493234
+Epoch: [6][ 8000/10010]	Time  0.249 ( 1.218)	Data  0.000 ( 1.006)	Loss 3.0864e+00 (2.8643e+00)	Acc@1  38.28 ( 39.14)	Acc@5  64.06 ( 64.17)
+cur lr:  0.09920980340312598
+Epoch: [6][ 9000/10010]	Time  0.252 ( 1.184)	Data  0.000 ( 0.972)	Loss 2.9158e+00 (2.8640e+00)	Acc@1  42.97 ( 39.15)	Acc@5  62.50 ( 64.16)
+cur lr:  0.0991864762069679
+Epoch: [6][10000/10010]	Time  0.234 ( 1.154)	Data  0.000 ( 0.941)	Loss 2.7766e+00 (2.8628e+00)	Acc@1  38.28 ( 39.18)	Acc@5  64.06 ( 64.19)
+cur lr:  0.09916281250604894
+Test: [  0/391]	Time  6.488 ( 6.488)	Loss 1.6872e+00 (1.6872e+00)	Acc@1  58.59 ( 58.59)	Acc@5  86.72 ( 86.72)
+ * Acc@1 42.754 Acc@5 68.996
+Epoch: [7][    0/10010]	Time  7.643 ( 7.643)	Data  7.444 ( 7.444)	Loss 2.7100e+00 (2.7100e+00)	Acc@1  39.06 ( 39.06)	Acc@5  70.31 ( 70.31)
+cur lr:  0.09916257417023655
+Epoch: [7][ 1000/10010]	Time  9.049 ( 0.903)	Data  8.825 ( 0.689)	Loss 3.1172e+00 (2.8203e+00)	Acc@1  39.06 ( 39.84)	Acc@5  63.28 ( 64.83)
+cur lr:  0.09913857076384644
+Epoch: [7][ 2000/10010]	Time  4.895 ( 0.899)	Data  4.727 ( 0.679)	Loss 2.8945e+00 (2.8260e+00)	Acc@1  38.28 ( 39.70)	Acc@5  67.19 ( 64.75)
+cur lr:  0.09911423118043616
+Epoch: [7][ 3000/10010]	Time  4.622 ( 0.899)	Data  4.508 ( 0.679)	Loss 3.0230e+00 (2.8273e+00)	Acc@1  39.84 ( 39.71)	Acc@5  60.16 ( 64.75)
+cur lr:  0.09908955558652273
+Epoch: [7][ 4000/10010]	Time  4.525 ( 0.900)	Data  4.415 ( 0.679)	Loss 3.0772e+00 (2.8237e+00)	Acc@1  35.16 ( 39.79)	Acc@5  57.81 ( 64.82)
+cur lr:  0.09906454415092197
+Epoch: [7][ 5000/10010]	Time  0.254 ( 0.893)	Data  0.000 ( 0.674)	Loss 3.0086e+00 (2.8245e+00)	Acc@1  33.59 ( 39.82)	Acc@5  60.16 ( 64.79)
+cur lr:  0.09903919704474731
+Epoch: [7][ 6000/10010]	Time  0.287 ( 0.892)	Data  0.000 ( 0.672)	Loss 2.9015e+00 (2.8234e+00)	Acc@1  37.50 ( 39.84)	Acc@5  67.19 ( 64.80)
+cur lr:  0.09901351444140866
+Epoch: [7][ 7000/10010]	Time  0.233 ( 0.892)	Data  0.000 ( 0.672)	Loss 2.7883e+00 (2.8220e+00)	Acc@1  40.62 ( 39.85)	Acc@5  61.72 ( 64.83)
+cur lr:  0.09898749651661119
+Epoch: [7][ 8000/10010]	Time  0.243 ( 0.889)	Data  0.000 ( 0.670)	Loss 3.2732e+00 (2.8217e+00)	Acc@1  37.50 ( 39.87)	Acc@5  55.47 ( 64.83)
+cur lr:  0.09896114344835412
+Epoch: [7][ 9000/10010]	Time  0.444 ( 0.890)	Data  0.327 ( 0.673)	Loss 2.9412e+00 (2.8211e+00)	Acc@1  32.03 ( 39.89)	Acc@5  63.28 ( 64.85)
+cur lr:  0.09893445541692958
+Epoch: [7][10000/10010]	Time  0.249 ( 0.889)	Data  0.000 ( 0.674)	Loss 2.6735e+00 (2.8203e+00)	Acc@1  42.19 ( 39.91)	Acc@5  64.06 ( 64.86)
+cur lr:  0.09890743260492128
+Test: [  0/391]	Time  7.005 ( 7.005)	Loss 1.7938e+00 (1.7938e+00)	Acc@1  60.94 ( 60.94)	Acc@5  80.47 ( 80.47)
+ * Acc@1 42.648 Acc@5 68.962
+Epoch: [8][    0/10010]	Time  8.054 ( 8.054)	Data  7.943 ( 7.943)	Loss 2.3743e+00 (2.3743e+00)	Acc@1  47.66 ( 47.66)	Acc@5  71.09 ( 71.09)
+cur lr:  0.09890716068678285
+Epoch: [8][ 1000/10010]	Time  3.718 ( 0.868)	Data  3.604 ( 0.662)	Loss 2.8582e+00 (2.7735e+00)	Acc@1  39.06 ( 40.67)	Acc@5  62.50 ( 65.69)
+cur lr:  0.09887979993404913
+Epoch: [8][ 2000/10010]	Time  0.271 ( 0.872)	Data  0.000 ( 0.655)	Loss 2.8274e+00 (2.7780e+00)	Acc@1  40.62 ( 40.53)	Acc@5  63.28 ( 65.60)
+cur lr:  0.09885210477465212
+Epoch: [8][ 3000/10010]	Time  0.233 ( 0.871)	Data  0.000 ( 0.654)	Loss 2.7643e+00 (2.7799e+00)	Acc@1  45.31 ( 40.54)	Acc@5  60.94 ( 65.56)
+cur lr:  0.09882407539806569
+Epoch: [8][ 4000/10010]	Time  0.247 ( 0.871)	Data  0.000 ( 0.653)	Loss 2.5264e+00 (2.7819e+00)	Acc@1  37.50 ( 40.55)	Acc@5  74.22 ( 65.54)
+cur lr:  0.09879571199605025
+Epoch: [8][ 5000/10010]	Time  0.235 ( 0.869)	Data  0.000 ( 0.652)	Loss 2.7648e+00 (2.7830e+00)	Acc@1  45.31 ( 40.56)	Acc@5  62.50 ( 65.51)
+cur lr:  0.09876701476265144
+Epoch: [8][ 6000/10010]	Time  0.234 ( 0.867)	Data  0.000 ( 0.652)	Loss 2.9871e+00 (2.7849e+00)	Acc@1  39.84 ( 40.54)	Acc@5  60.16 ( 65.50)
+cur lr:  0.0987379838941987
+Epoch: [8][ 7000/10010]	Time  0.236 ( 0.870)	Data  0.000 ( 0.654)	Loss 2.6373e+00 (2.7864e+00)	Acc@1  43.75 ( 40.51)	Acc@5  70.31 ( 65.48)
+cur lr:  0.0987086195893041
+Epoch: [8][ 8000/10010]	Time  0.294 ( 0.868)	Data  0.000 ( 0.652)	Loss 2.8809e+00 (2.7871e+00)	Acc@1  32.81 ( 40.50)	Acc@5  62.50 ( 65.46)
+cur lr:  0.0986789220488608
+Epoch: [8][ 9000/10010]	Time  0.200 ( 0.868)	Data  0.001 ( 0.653)	Loss 2.6828e+00 (2.7871e+00)	Acc@1  47.66 ( 40.52)	Acc@5  70.31 ( 65.47)
+cur lr:  0.09864889147604182
+Epoch: [8][10000/10010]	Time  0.231 ( 0.867)	Data  0.000 ( 0.651)	Loss 2.8793e+00 (2.7877e+00)	Acc@1  38.28 ( 40.51)	Acc@5  65.62 ( 65.47)
+cur lr:  0.09861852807629855
+Test: [  0/391]	Time  7.179 ( 7.179)	Loss 9.7358e-01 (9.7358e-01)	Acc@1  79.69 ( 79.69)	Acc@5  92.19 ( 92.19)
+ * Acc@1 42.002 Acc@5 68.542
+Epoch: [9][    0/10010]	Time  7.073 ( 7.073)	Data  6.949 ( 6.949)	Loss 2.6656e+00 (2.6656e+00)	Acc@1  35.94 ( 35.94)	Acc@5  67.97 ( 67.97)
+cur lr:  0.0986182227622261
+Epoch: [9][ 1000/10010]	Time  0.232 ( 0.831)	Data  0.000 ( 0.623)	Loss 2.6407e+00 (2.7413e+00)	Acc@1  45.31 ( 41.44)	Acc@5  63.28 ( 66.06)
+cur lr:  0.09858752341815172
+Epoch: [9][ 2000/10010]	Time  0.530 ( 0.839)	Data  0.419 ( 0.628)	Loss 2.7999e+00 (2.7444e+00)	Acc@1  39.84 ( 41.36)	Acc@5  67.19 ( 66.14)
+cur lr:  0.098556491666997
+Epoch: [9][ 3000/10010]	Time  0.915 ( 0.842)	Data  0.802 ( 0.631)	Loss 3.0587e+00 (2.7496e+00)	Acc@1  32.81 ( 41.27)	Acc@5  60.16 ( 66.05)
+cur lr:  0.0985251277210628
+Epoch: [9][ 4000/10010]	Time  1.634 ( 0.845)	Data  1.521 ( 0.636)	Loss 2.7575e+00 (2.7524e+00)	Acc@1  42.97 ( 41.16)	Acc@5  67.19 ( 66.02)
+cur lr:  0.09849343179492269
+Epoch: [9][ 5000/10010]	Time  3.249 ( 0.846)	Data  3.139 ( 0.638)	Loss 2.5609e+00 (2.7528e+00)	Acc@1  42.97 ( 41.13)	Acc@5  68.75 ( 66.01)
+cur lr:  0.09846140410542142
+Epoch: [9][ 6000/10010]	Time  4.737 ( 0.849)	Data  4.626 ( 0.641)	Loss 2.6329e+00 (2.7550e+00)	Acc@1  42.97 ( 41.08)	Acc@5  70.31 ( 65.98)
+cur lr:  0.0984290448716735
+Epoch: [9][ 7000/10010]	Time  3.196 ( 0.849)	Data  3.085 ( 0.640)	Loss 3.1512e+00 (2.7570e+00)	Acc@1  32.03 ( 41.05)	Acc@5  57.03 ( 65.96)
+cur lr:  0.09839635431506166
+Epoch: [9][ 8000/10010]	Time  0.262 ( 0.851)	Data  0.000 ( 0.641)	Loss 2.7593e+00 (2.7575e+00)	Acc@1  33.59 ( 41.04)	Acc@5  61.72 ( 65.97)
+cur lr:  0.09836333265923534
+Epoch: [9][ 9000/10010]	Time  0.239 ( 0.849)	Data  0.000 ( 0.638)	Loss 2.7030e+00 (2.7579e+00)	Acc@1  42.19 ( 41.03)	Acc@5  65.62 ( 65.97)
+cur lr:  0.09832998013010914
+Epoch: [9][10000/10010]	Time  0.231 ( 0.848)	Data  0.000 ( 0.638)	Loss 2.8110e+00 (2.7593e+00)	Acc@1  38.28 ( 41.03)	Acc@5  65.62 ( 65.95)
+cur lr:  0.09829629695586138
+Test: [  0/391]	Time  6.487 ( 6.487)	Loss 2.4525e+00 (2.4525e+00)	Acc@1  54.69 ( 54.69)	Acc@5  73.44 ( 73.44)
+ * Acc@1 43.262 Acc@5 69.516
+Epoch: [10][    0/10010]	Time  7.515 ( 7.515)	Data  7.401 ( 7.401)	Loss 2.4049e+00 (2.4049e+00)	Acc@1  43.75 ( 43.75)	Acc@5  71.88 ( 71.88)
+cur lr:  0.09829595845513883
+Epoch: [10][ 1000/10010]	Time  0.265 ( 0.846)	Data  0.000 ( 0.642)	Loss 2.7376e+00 (2.7143e+00)	Acc@1  45.31 ( 41.73)	Acc@5  65.62 ( 66.72)
+cur lr:  0.09826194156323437
+Epoch: [10][ 2000/10010]	Time  0.295 ( 0.842)	Data  0.000 ( 0.629)	Loss 2.7379e+00 (2.7214e+00)	Acc@1  46.09 ( 41.63)	Acc@5  71.09 ( 66.54)
+cur lr:  0.09822759449168793
+Epoch: [10][ 3000/10010]	Time  0.256 ( 0.842)	Data  0.000 ( 0.632)	Loss 2.4146e+00 (2.7271e+00)	Acc@1  44.53 ( 41.55)	Acc@5  68.75 ( 66.48)
+cur lr:  0.09819291747548183
+Epoch: [10][ 4000/10010]	Time  0.219 ( 0.844)	Data  0.000 ( 0.631)	Loss 2.6850e+00 (2.7276e+00)	Acc@1  34.38 ( 41.53)	Acc@5  65.62 ( 66.45)
+cur lr:  0.0981579107518557
+Epoch: [10][ 5000/10010]	Time  0.211 ( 0.845)	Data  0.000 ( 0.632)	Loss 2.3452e+00 (2.7295e+00)	Acc@1  54.69 ( 41.50)	Acc@5  72.66 ( 66.42)
+cur lr:  0.09812257456030485
+Epoch: [10][ 6000/10010]	Time  0.207 ( 0.846)	Data  0.000 ( 0.631)	Loss 2.8085e+00 (2.7330e+00)	Acc@1  42.19 ( 41.45)	Acc@5  66.41 ( 66.40)
+cur lr:  0.09808690914257856
+Epoch: [10][ 7000/10010]	Time  0.215 ( 0.845)	Data  0.000 ( 0.632)	Loss 2.6297e+00 (2.7354e+00)	Acc@1  40.62 ( 41.40)	Acc@5  64.84 ( 66.34)
+cur lr:  0.09805091474267852
+Epoch: [10][ 8000/10010]	Time  0.220 ( 0.842)	Data  0.001 ( 0.630)	Loss 2.8219e+00 (2.7367e+00)	Acc@1  42.19 ( 41.40)	Acc@5  64.84 ( 66.33)
+cur lr:  0.0980145916068571
+Epoch: [10][ 9000/10010]	Time  0.222 ( 0.846)	Data  0.000 ( 0.636)	Loss 2.3542e+00 (2.7377e+00)	Acc@1  46.88 ( 41.39)	Acc@5  73.44 ( 66.32)
+cur lr:  0.09797793998361573
+Epoch: [10][10000/10010]	Time  0.244 ( 0.850)	Data  0.000 ( 0.639)	Loss 2.6541e+00 (2.7385e+00)	Acc@1  40.62 ( 41.39)	Acc@5  68.75 ( 66.31)
+cur lr:  0.09794096012370311
+Test: [  0/391]	Time  6.986 ( 6.986)	Loss 1.7800e+00 (1.7800e+00)	Acc@1  59.38 ( 59.38)	Acc@5  82.03 ( 82.03)
+ * Acc@1 44.354 Acc@5 70.576
+Epoch: [11][    0/10010]	Time  7.216 ( 7.216)	Data  7.028 ( 7.028)	Loss 2.5143e+00 (2.5143e+00)	Acc@1  50.00 ( 50.00)	Acc@5  67.19 ( 67.19)
+cur lr:  0.09794058866836292
+Epoch: [11][ 1000/10010]	Time  1.439 ( 0.879)	Data  1.329 ( 0.674)	Loss 3.0589e+00 (2.6918e+00)	Acc@1  42.19 ( 42.25)	Acc@5  66.41 ( 66.97)
+cur lr:  0.0979032775462218
+Epoch: [11][ 2000/10010]	Time  0.235 ( 0.887)	Data  0.000 ( 0.672)	Loss 2.9637e+00 (2.7010e+00)	Acc@1  32.81 ( 42.06)	Acc@5  64.06 ( 66.94)
+cur lr:  0.09786563869820564
+Epoch: [11][ 3000/10010]	Time  6.148 ( 0.891)	Data  6.038 ( 0.678)	Loss 2.5548e+00 (2.7030e+00)	Acc@1  42.97 ( 42.00)	Acc@5  69.53 ( 66.88)
+cur lr:  0.09782767238181717
+Epoch: [11][ 4000/10010]	Time  0.233 ( 0.886)	Data  0.001 ( 0.673)	Loss 2.6083e+00 (2.7058e+00)	Acc@1  44.53 ( 41.99)	Acc@5  68.75 ( 66.83)
+cur lr:  0.09778937885679945
+Epoch: [11][ 5000/10010]	Time  0.274 ( 0.880)	Data  0.000 ( 0.667)	Loss 2.6593e+00 (2.7081e+00)	Acc@1  38.28 ( 41.95)	Acc@5  64.06 ( 66.78)
+cur lr:  0.09775075838513408
+Epoch: [11][ 6000/10010]	Time  0.263 ( 0.881)	Data  0.000 ( 0.669)	Loss 3.3756e+00 (2.7090e+00)	Acc@1  31.25 ( 41.93)	Acc@5  52.34 ( 66.79)
+cur lr:  0.09771181123103954
+Epoch: [11][ 7000/10010]	Time  0.238 ( 0.879)	Data  0.000 ( 0.666)	Loss 2.8909e+00 (2.7115e+00)	Acc@1  36.72 ( 41.87)	Acc@5  64.06 ( 66.76)
+cur lr:  0.09767253766096916
+Epoch: [11][ 8000/10010]	Time  0.214 ( 0.878)	Data  0.000 ( 0.666)	Loss 2.6573e+00 (2.7136e+00)	Acc@1  42.97 ( 41.83)	Acc@5  70.31 ( 66.74)
+cur lr:  0.09763293794360947
+Epoch: [11][ 9000/10010]	Time  0.238 ( 0.879)	Data  0.000 ( 0.667)	Loss 2.6262e+00 (2.7139e+00)	Acc@1  35.94 ( 41.80)	Acc@5  70.31 ( 66.74)
+cur lr:  0.09759301234987831
+Epoch: [11][10000/10010]	Time  0.625 ( 0.879)	Data  0.515 ( 0.667)	Loss 3.1454e+00 (2.7152e+00)	Acc@1  32.81 ( 41.79)	Acc@5  56.25 ( 66.71)
+cur lr:  0.09755276115292297
+Test: [  0/391]	Time  5.979 ( 5.979)	Loss 1.0078e+00 (1.0078e+00)	Acc@1  78.12 ( 78.12)	Acc@5  91.41 ( 91.41)
+ * Acc@1 44.288 Acc@5 70.946
+Epoch: [12][    0/10010]	Time  8.072 ( 8.072)	Data  7.895 ( 7.895)	Loss 2.6321e+00 (2.6321e+00)	Acc@1  39.84 ( 39.84)	Acc@5  69.53 ( 69.53)
+cur lr:  0.097552356997587
+Epoch: [12][ 1000/10010]	Time  0.196 ( 0.914)	Data  0.020 ( 0.704)	Loss 2.9488e+00 (2.6753e+00)	Acc@1  34.38 ( 42.50)	Acc@5  58.59 ( 67.35)
+cur lr:  0.09751177722090201
+Epoch: [12][ 2000/10010]	Time  0.240 ( 0.904)	Data  0.000 ( 0.690)	Loss 2.2043e+00 (2.6863e+00)	Acc@1  45.31 ( 42.32)	Acc@5  75.00 ( 67.14)
+cur lr:  0.09747087239675552
+Epoch: [12][ 3000/10010]	Time  2.115 ( 0.898)	Data  1.984 ( 0.689)	Loss 2.6593e+00 (2.6906e+00)	Acc@1  47.66 ( 42.27)	Acc@5  67.97 ( 67.01)
+cur lr:  0.09742964280499411
+Epoch: [12][ 4000/10010]	Time  0.234 ( 0.901)	Data  0.000 ( 0.692)	Loss 2.4309e+00 (2.6895e+00)	Acc@1  42.19 ( 42.26)	Acc@5  75.00 ( 67.06)
+cur lr:  0.09738808872768624
+Epoch: [12][ 5000/10010]	Time  0.217 ( 0.900)	Data  0.000 ( 0.690)	Loss 2.1929e+00 (2.6949e+00)	Acc@1  50.00 ( 42.19)	Acc@5  71.88 ( 67.01)
+cur lr:  0.09734621044912034
+Epoch: [12][ 6000/10010]	Time  0.216 ( 0.900)	Data  0.000 ( 0.688)	Loss 2.8622e+00 (2.6963e+00)	Acc@1  39.84 ( 42.17)	Acc@5  61.72 ( 67.02)
+cur lr:  0.09730400825580279
+Epoch: [12][ 7000/10010]	Time  0.222 ( 0.900)	Data  0.000 ( 0.687)	Loss 2.7751e+00 (2.6969e+00)	Acc@1  45.31 ( 42.14)	Acc@5  64.84 ( 67.00)
+cur lr:  0.09726148243645603
+Epoch: [12][ 8000/10010]	Time  0.232 ( 0.897)	Data  0.000 ( 0.684)	Loss 2.8783e+00 (2.6974e+00)	Acc@1  42.19 ( 42.15)	Acc@5  64.06 ( 66.99)
+cur lr:  0.09721863328201655
+Epoch: [12][ 9000/10010]	Time  0.216 ( 0.895)	Data  0.000 ( 0.681)	Loss 2.4587e+00 (2.6997e+00)	Acc@1  49.22 ( 42.11)	Acc@5  72.66 ( 66.95)
+cur lr:  0.09717546108563288
+Epoch: [12][10000/10010]	Time  0.231 ( 0.895)	Data  0.000 ( 0.682)	Loss 2.3662e+00 (2.7026e+00)	Acc@1  44.53 ( 42.07)	Acc@5  71.88 ( 66.92)
+cur lr:  0.09713196614266367
+Test: [  0/391]	Time  6.701 ( 6.701)	Loss 1.5757e+00 (1.5757e+00)	Acc@1  64.84 ( 64.84)	Acc@5  84.38 ( 84.38)
+ * Acc@1 44.078 Acc@5 70.658
+Epoch: [13][    0/10010]	Time  7.021 ( 7.021)	Data  6.822 ( 6.822)	Loss 2.3349e+00 (2.3349e+00)	Acc@1  50.00 ( 50.00)	Acc@5  73.44 ( 73.44)
+cur lr:  0.09713152956436868
+Epoch: [13][ 1000/10010]	Time  5.131 ( 0.906)	Data  5.010 ( 0.698)	Loss 2.7262e+00 (2.6583e+00)	Acc@1  44.53 ( 42.77)	Acc@5  71.88 ( 67.60)
+cur lr:  0.09708770894940057
+Epoch: [13][ 2000/10010]	Time  5.876 ( 0.920)	Data  5.766 ( 0.709)	Loss 2.4883e+00 (2.6682e+00)	Acc@1  39.84 ( 42.54)	Acc@5  73.44 ( 67.47)
+cur lr:  0.09704356618819508
+Epoch: [13][ 3000/10010]	Time  2.456 ( 0.911)	Data  2.345 ( 0.701)	Loss 2.6330e+00 (2.6735e+00)	Acc@1  42.97 ( 42.53)	Acc@5  67.19 ( 67.36)
+cur lr:  0.09699910158275088
+Epoch: [13][ 4000/10010]	Time  0.265 ( 0.908)	Data  0.000 ( 0.700)	Loss 2.7527e+00 (2.6782e+00)	Acc@1  42.19 ( 42.42)	Acc@5  67.97 ( 67.31)
+cur lr:  0.09695431543726846
+Epoch: [13][ 5000/10010]	Time  1.525 ( 0.908)	Data  1.413 ( 0.702)	Loss 2.9843e+00 (2.6834e+00)	Acc@1  38.28 ( 42.31)	Acc@5  60.16 ( 67.24)
+cur lr:  0.09690920805814814
+Epoch: [13][ 6000/10010]	Time  4.701 ( 0.899)	Data  4.590 ( 0.694)	Loss 2.5928e+00 (2.6846e+00)	Acc@1  44.53 ( 42.30)	Acc@5  65.62 ( 67.22)
+cur lr:  0.09686377975398791
+Epoch: [13][ 7000/10010]	Time  2.128 ( 0.891)	Data  2.018 ( 0.685)	Loss 2.3735e+00 (2.6857e+00)	Acc@1  47.66 ( 42.31)	Acc@5  71.09 ( 67.22)
+cur lr:  0.09681803083558133
+Epoch: [13][ 8000/10010]	Time  0.419 ( 0.885)	Data  0.306 ( 0.679)	Loss 2.8602e+00 (2.6858e+00)	Acc@1  37.50 ( 42.30)	Acc@5  61.72 ( 67.22)
+cur lr:  0.09677196161591545
+Epoch: [13][ 9000/10010]	Time  0.271 ( 0.883)	Data  0.000 ( 0.676)	Loss 2.9663e+00 (2.6864e+00)	Acc@1  39.06 ( 42.30)	Acc@5  64.06 ( 67.22)
+cur lr:  0.09672557241016858
+Epoch: [13][10000/10010]	Time  1.273 ( 0.879)	Data  1.158 ( 0.672)	Loss 2.7265e+00 (2.6863e+00)	Acc@1  42.97 ( 42.33)	Acc@5  69.53 ( 67.22)
+cur lr:  0.09667886353570823
+Test: [  0/391]	Time  6.176 ( 6.176)	Loss 1.5202e+00 (1.5202e+00)	Acc@1  63.28 ( 63.28)	Acc@5  86.72 ( 86.72)
+ * Acc@1 42.386 Acc@5 68.846
+Epoch: [14][    0/10010]	Time  7.389 ( 7.389)	Data  7.248 ( 7.248)	Loss 2.4699e+00 (2.4699e+00)	Acc@1  45.31 ( 45.31)	Acc@5  67.97 ( 67.97)
+cur lr:  0.09667839483371601
+Epoch: [14][ 1000/10010]	Time  4.125 ( 0.871)	Data  4.014 ( 0.659)	Loss 2.6305e+00 (2.6553e+00)	Acc@1  46.09 ( 42.72)	Acc@5  67.97 ( 67.56)
+cur lr:  0.0966313634182262
+Epoch: [14][ 2000/10010]	Time  4.487 ( 0.847)	Data  4.377 ( 0.635)	Loss 2.7607e+00 (2.6633e+00)	Acc@1  39.84 ( 42.72)	Acc@5  67.19 ( 67.48)
+cur lr:  0.09658401297854508
+Epoch: [14][ 3000/10010]	Time  0.225 ( 0.841)	Data  0.000 ( 0.632)	Loss 2.6368e+00 (2.6675e+00)	Acc@1  48.44 ( 42.67)	Acc@5  64.06 ( 67.42)
+cur lr:  0.09653634383861631
+Epoch: [14][ 4000/10010]	Time  4.994 ( 0.844)	Data  4.884 ( 0.637)	Loss 2.7125e+00 (2.6683e+00)	Acc@1  46.88 ( 42.71)	Acc@5  70.31 ( 67.41)
+cur lr:  0.09648835632456397
+Epoch: [14][ 5000/10010]	Time  2.791 ( 0.842)	Data  2.671 ( 0.635)	Loss 2.6370e+00 (2.6684e+00)	Acc@1  41.41 ( 42.68)	Acc@5  63.28 ( 67.43)
+cur lr:  0.0964400507646902
+Epoch: [14][ 6000/10010]	Time  0.261 ( 0.832)	Data  0.000 ( 0.626)	Loss 2.6638e+00 (2.6685e+00)	Acc@1  42.97 ( 42.68)	Acc@5  67.19 ( 67.44)
+cur lr:  0.09639142748947307
+Epoch: [14][ 7000/10010]	Time  0.238 ( 0.826)	Data  0.000 ( 0.620)	Loss 2.9420e+00 (2.6682e+00)	Acc@1  40.62 ( 42.68)	Acc@5  65.62 ( 67.48)
+cur lr:  0.09634248683156427
+Epoch: [14][ 8000/10010]	Time  0.263 ( 0.824)	Data  0.101 ( 0.620)	Loss 2.5093e+00 (2.6701e+00)	Acc@1  40.62 ( 42.66)	Acc@5  71.88 ( 67.46)
+cur lr:  0.09629322912578676
+Epoch: [14][ 9000/10010]	Time  0.234 ( 0.822)	Data  0.000 ( 0.618)	Loss 2.6459e+00 (2.6699e+00)	Acc@1  42.97 ( 42.66)	Acc@5  66.41 ( 67.46)
+cur lr:  0.09624365470913267
+Epoch: [14][10000/10010]	Time  0.231 ( 0.818)	Data  0.000 ( 0.614)	Loss 2.7208e+00 (2.6715e+00)	Acc@1  40.62 ( 42.62)	Acc@5  66.41 ( 67.44)
+cur lr:  0.09619376392076079
+Test: [  0/391]	Time  5.594 ( 5.594)	Loss 1.5050e+00 (1.5050e+00)	Acc@1  64.84 ( 64.84)	Acc@5  85.16 ( 85.16)
+ * Acc@1 46.054 Acc@5 72.106
+Epoch: [15][    0/10010]	Time  6.874 ( 6.874)	Data  6.762 ( 6.762)	Loss 2.7481e+00 (2.7481e+00)	Acc@1  42.97 ( 42.97)	Acc@5  64.06 ( 64.06)
+cur lr:  0.09619326341635295
+Epoch: [15][ 1000/10010]	Time  3.553 ( 0.845)	Data  3.443 ( 0.627)	Loss 2.8259e+00 (2.6318e+00)	Acc@1  39.84 ( 43.22)	Acc@5  67.19 ( 68.09)
+cur lr:  0.0961430534390136
+Epoch: [15][ 2000/10010]	Time  0.245 ( 0.862)	Data  0.000 ( 0.650)	Loss 2.7375e+00 (2.6314e+00)	Acc@1  36.72 ( 43.31)	Acc@5  61.72 ( 68.09)
+cur lr:  0.09609252777821081
+Epoch: [15][ 3000/10010]	Time  0.230 ( 0.870)	Data  0.000 ( 0.661)	Loss 2.4432e+00 (2.6410e+00)	Acc@1  48.44 ( 43.15)	Acc@5  69.53 ( 67.92)
+cur lr:  0.09604168677961125
+Epoch: [15][ 4000/10010]	Time  0.231 ( 0.867)	Data  0.000 ( 0.656)	Loss 2.6568e+00 (2.6456e+00)	Acc@1  47.66 ( 43.05)	Acc@5  70.31 ( 67.85)
+cur lr:  0.09599053079103897
+Epoch: [15][ 5000/10010]	Time  0.220 ( 0.863)	Data  0.000 ( 0.654)	Loss 2.7190e+00 (2.6499e+00)	Acc@1  39.06 ( 43.00)	Acc@5  67.19 ( 67.78)
+cur lr:  0.09593906016247294
+Epoch: [15][ 6000/10010]	Time  0.274 ( 0.860)	Data  0.000 ( 0.650)	Loss 2.6633e+00 (2.6541e+00)	Acc@1  44.53 ( 42.90)	Acc@5  64.06 ( 67.71)
+cur lr:  0.09588727524604478
+Epoch: [15][ 7000/10010]	Time  0.232 ( 0.858)	Data  0.000 ( 0.649)	Loss 2.6022e+00 (2.6557e+00)	Acc@1  43.75 ( 42.88)	Acc@5  67.19 ( 67.70)
+cur lr:  0.09583517639603617
+Epoch: [15][ 8000/10010]	Time  0.212 ( 0.856)	Data  0.000 ( 0.647)	Loss 2.6674e+00 (2.6549e+00)	Acc@1  38.28 ( 42.88)	Acc@5  67.97 ( 67.71)
+cur lr:  0.09578276396887668
+Epoch: [15][ 9000/10010]	Time  0.263 ( 0.853)	Data  0.000 ( 0.644)	Loss 3.0342e+00 (2.6572e+00)	Acc@1  35.16 ( 42.85)	Acc@5  58.59 ( 67.68)
+cur lr:  0.09573003832314109
+Epoch: [15][10000/10010]	Time  0.217 ( 0.852)	Data  0.000 ( 0.644)	Loss 2.7459e+00 (2.6577e+00)	Acc@1  42.19 ( 42.86)	Acc@5  64.84 ( 67.66)
+cur lr:  0.09567699981954705
+Test: [  0/391]	Time  6.076 ( 6.076)	Loss 1.6455e+00 (1.6455e+00)	Acc@1  64.06 ( 64.06)	Acc@5  85.94 ( 85.94)
+ * Acc@1 45.376 Acc@5 71.934
+Epoch: [16][    0/10010]	Time  7.631 ( 7.631)	Data  7.461 ( 7.461)	Loss 2.5994e+00 (2.5994e+00)	Acc@1  44.53 ( 44.53)	Acc@5  69.53 ( 69.53)
+cur lr:  0.09567646785580486
+Epoch: [16][ 1000/10010]	Time  0.205 ( 0.850)	Data  0.023 ( 0.640)	Loss 2.7529e+00 (2.6308e+00)	Acc@1  38.28 ( 43.29)	Acc@5  64.84 ( 68.03)
+cur lr:  0.09562311373410011
+Epoch: [16][ 2000/10010]	Time  4.952 ( 0.838)	Data  4.822 ( 0.626)	Loss 2.6780e+00 (2.6361e+00)	Acc@1  49.22 ( 43.23)	Acc@5  67.97 ( 67.97)
+cur lr:  0.09556944748605167
+Epoch: [16][ 3000/10010]	Time  1.742 ( 0.856)	Data  1.632 ( 0.646)	Loss 2.1582e+00 (2.6371e+00)	Acc@1  51.56 ( 43.23)	Acc@5  76.56 ( 67.95)
+cur lr:  0.09551546947881227
+Epoch: [16][ 4000/10010]	Time  0.206 ( 0.846)	Data  0.002 ( 0.637)	Loss 2.7710e+00 (2.6434e+00)	Acc@1  40.62 ( 43.07)	Acc@5  64.06 ( 67.87)
+cur lr:  0.09546118008166748
+Epoch: [16][ 5000/10010]	Time  0.264 ( 0.839)	Data  0.000 ( 0.630)	Loss 2.6874e+00 (2.6441e+00)	Acc@1  44.53 ( 43.08)	Acc@5  68.75 ( 67.89)
+cur lr:  0.09540657966603323
+Epoch: [16][ 6000/10010]	Time  0.203 ( 0.835)	Data  0.000 ( 0.628)	Loss 2.8199e+00 (2.6478e+00)	Acc@1  38.28 ( 43.03)	Acc@5  63.28 ( 67.82)
+cur lr:  0.09535166860545326
+Epoch: [16][ 7000/10010]	Time  3.221 ( 0.835)	Data  3.058 ( 0.628)	Loss 2.7504e+00 (2.6463e+00)	Acc@1  43.75 ( 43.06)	Acc@5  65.62 ( 67.83)
+cur lr:  0.09529644727559652
+Epoch: [16][ 8000/10010]	Time  2.145 ( 0.836)	Data  2.035 ( 0.629)	Loss 2.5567e+00 (2.6485e+00)	Acc@1  46.09 ( 43.02)	Acc@5  69.53 ( 67.81)
+cur lr:  0.09524091605425469
+Epoch: [16][ 9000/10010]	Time  0.233 ( 0.834)	Data  0.000 ( 0.627)	Loss 2.2790e+00 (2.6498e+00)	Acc@1  44.53 ( 42.99)	Acc@5  66.41 ( 67.78)
+cur lr:  0.09518507532133952
+Epoch: [16][10000/10010]	Time  0.248 ( 0.832)	Data  0.000 ( 0.624)	Loss 2.4571e+00 (2.6501e+00)	Acc@1  45.31 ( 42.99)	Acc@5  68.75 ( 67.78)
+cur lr:  0.09512892545888024
+Test: [  0/391]	Time  6.078 ( 6.078)	Loss 1.9903e+00 (1.9903e+00)	Acc@1  59.38 ( 59.38)	Acc@5  79.69 ( 79.69)
+ * Acc@1 43.778 Acc@5 69.620
+Epoch: [17][    0/10010]	Time  8.444 ( 8.444)	Data  8.267 ( 8.267)	Loss 2.9832e+00 (2.9832e+00)	Acc@1  33.59 ( 33.59)	Acc@5  64.06 ( 64.06)
+cur lr:  0.09512836240044943
+Epoch: [17][ 1000/10010]	Time  1.313 ( 0.813)	Data  1.204 ( 0.613)	Loss 2.4778e+00 (2.6354e+00)	Acc@1  42.19 ( 43.22)	Acc@5  71.88 ( 68.13)
+cur lr:  0.09507190070708327
+Epoch: [17][ 2000/10010]	Time  1.592 ( 0.810)	Data  1.478 ( 0.605)	Loss 2.7931e+00 (2.6313e+00)	Acc@1  42.19 ( 43.25)	Acc@5  61.72 ( 68.17)
+cur lr:  0.09501513065844674
+Epoch: [17][ 3000/10010]	Time  4.462 ( 0.810)	Data  4.334 ( 0.605)	Loss 2.8926e+00 (2.6295e+00)	Acc@1  33.59 ( 43.33)	Acc@5  64.06 ( 68.19)
+cur lr:  0.09495805264292695
+Epoch: [17][ 4000/10010]	Time  0.246 ( 0.814)	Data  0.000 ( 0.605)	Loss 2.3934e+00 (2.6324e+00)	Acc@1  50.78 ( 43.27)	Acc@5  68.75 ( 68.15)
+cur lr:  0.09490066705101785
+Epoch: [17][ 5000/10010]	Time  0.224 ( 0.807)	Data  0.000 ( 0.598)	Loss 2.2922e+00 (2.6332e+00)	Acc@1  47.66 ( 43.27)	Acc@5  72.66 ( 68.13)
+cur lr:  0.09484297427531772
+Epoch: [17][ 6000/10010]	Time  0.235 ( 0.807)	Data  0.000 ( 0.599)	Loss 2.8565e+00 (2.6344e+00)	Acc@1  42.97 ( 43.27)	Acc@5  64.84 ( 68.09)
+cur lr:  0.09478497471052638
+Epoch: [17][ 7000/10010]	Time  0.200 ( 0.804)	Data  0.000 ( 0.597)	Loss 2.5764e+00 (2.6355e+00)	Acc@1  46.09 ( 43.25)	Acc@5  71.09 ( 68.08)
+cur lr:  0.09472666875344256
+Epoch: [17][ 8000/10010]	Time  1.272 ( 0.801)	Data  1.135 ( 0.595)	Loss 2.4357e+00 (2.6378e+00)	Acc@1  47.66 ( 43.23)	Acc@5  75.78 ( 68.04)
+cur lr:  0.09466805680296109
+Epoch: [17][ 9000/10010]	Time  0.281 ( 0.801)	Data  0.000 ( 0.595)	Loss 2.6999e+00 (2.6386e+00)	Acc@1  42.97 ( 43.21)	Acc@5  67.97 ( 68.03)
+cur lr:  0.09460913926007025
+Epoch: [17][10000/10010]	Time  0.237 ( 0.800)	Data  0.000 ( 0.595)	Loss 3.0792e+00 (2.6393e+00)	Acc@1  39.84 ( 43.21)	Acc@5  59.38 ( 68.00)
+cur lr:  0.09454991652784898
+Test: [  0/391]	Time  6.609 ( 6.609)	Loss 1.3404e+00 (1.3404e+00)	Acc@1  70.31 ( 70.31)	Acc@5  89.84 ( 89.84)
+ * Acc@1 45.000 Acc@5 71.588
+Epoch: [18][    0/10010]	Time  7.634 ( 7.634)	Data  7.523 ( 7.523)	Loss 2.7194e+00 (2.7194e+00)	Acc@1  43.75 ( 43.75)	Acc@5  68.75 ( 68.75)
+cur lr:  0.09454932276068978
+Epoch: [18][ 1000/10010]	Time  0.234 ( 0.779)	Data  0.000 ( 0.582)	Loss 2.8349e+00 (2.6062e+00)	Acc@1  45.31 ( 43.70)	Acc@5  63.28 ( 68.58)
+cur lr:  0.0944897921985165
+Epoch: [18][ 2000/10010]	Time  0.235 ( 0.790)	Data  0.000 ( 0.589)	Loss 2.5224e+00 (2.6015e+00)	Acc@1  47.66 ( 43.79)	Acc@5  72.66 ( 68.58)
+cur lr:  0.09442995726351477
+Epoch: [18][ 3000/10010]	Time  0.234 ( 0.785)	Data  0.000 ( 0.584)	Loss 2.4668e+00 (2.6059e+00)	Acc@1  46.09 ( 43.73)	Acc@5  70.31 ( 68.49)
+cur lr:  0.09436981836503983
+Epoch: [18][ 4000/10010]	Time  0.235 ( 0.793)	Data  0.000 ( 0.589)	Loss 3.0615e+00 (2.6101e+00)	Acc@1  38.28 ( 43.67)	Acc@5  58.59 ( 68.45)
+cur lr:  0.09430937591452637
+Epoch: [18][ 5000/10010]	Time  0.743 ( 0.794)	Data  0.633 ( 0.586)	Loss 2.4743e+00 (2.6144e+00)	Acc@1  46.09 ( 43.59)	Acc@5  71.09 ( 68.39)
+cur lr:  0.09424863032548593
+Epoch: [18][ 6000/10010]	Time  0.353 ( 0.794)	Data  0.243 ( 0.587)	Loss 2.1882e+00 (2.6197e+00)	Acc@1  53.91 ( 43.52)	Acc@5  72.66 ( 68.31)
+cur lr:  0.09418758201350384
+Epoch: [18][ 7000/10010]	Time  0.270 ( 0.797)	Data  0.000 ( 0.588)	Loss 2.4273e+00 (2.6213e+00)	Acc@1  38.28 ( 43.49)	Acc@5  69.53 ( 68.29)
+cur lr:  0.09412623139623655
+Epoch: [18][ 8000/10010]	Time  0.217 ( 0.798)	Data  0.001 ( 0.590)	Loss 2.5909e+00 (2.6236e+00)	Acc@1  44.53 ( 43.45)	Acc@5  70.31 ( 68.25)
+cur lr:  0.09406457889340863
+Epoch: [18][ 9000/10010]	Time  0.240 ( 0.798)	Data  0.000 ( 0.590)	Loss 2.6281e+00 (2.6248e+00)	Acc@1  47.66 ( 43.44)	Acc@5  71.88 ( 68.25)
+cur lr:  0.09400262492681007
+Epoch: [18][10000/10010]	Time  0.234 ( 0.800)	Data  0.000 ( 0.592)	Loss 2.8768e+00 (2.6269e+00)	Acc@1  39.06 ( 43.41)	Acc@5  64.84 ( 68.21)
+cur lr:  0.09394036992029323
+Test: [  0/391]	Time  5.980 ( 5.980)	Loss 1.5958e+00 (1.5958e+00)	Acc@1  67.97 ( 67.97)	Acc@5  85.16 ( 85.16)
+ * Acc@1 47.210 Acc@5 73.334
+Epoch: [19][    0/10010]	Time  7.119 ( 7.119)	Data  6.975 ( 6.975)	Loss 2.5871e+00 (2.5871e+00)	Acc@1  45.31 ( 45.31)	Acc@5  71.09 ( 71.09)
+cur lr:  0.0939397458514158
+Epoch: [19][ 1000/10010]	Time  4.270 ( 0.791)	Data  4.133 ( 0.574)	Loss 2.5163e+00 (2.5934e+00)	Acc@1  47.66 ( 44.01)	Acc@5  66.41 ( 68.90)
+cur lr:  0.09387718722691032
+Epoch: [19][ 2000/10010]	Time  0.234 ( 0.795)	Data  0.000 ( 0.582)	Loss 2.9661e+00 (2.5933e+00)	Acc@1  37.50 ( 43.89)	Acc@5  65.62 ( 68.78)
+cur lr:  0.09381432842065707
+Epoch: [19][ 3000/10010]	Time  0.203 ( 0.801)	Data  0.000 ( 0.585)	Loss 2.9393e+00 (2.5966e+00)	Acc@1  35.94 ( 43.87)	Acc@5  64.84 ( 68.72)
+cur lr:  0.09375116986269877
+Epoch: [19][ 4000/10010]	Time  0.256 ( 0.797)	Data  0.000 ( 0.579)	Loss 2.5122e+00 (2.6033e+00)	Acc@1  40.62 ( 43.77)	Acc@5  70.31 ( 68.59)
+cur lr:  0.09368771198512892
+Epoch: [19][ 5000/10010]	Time  3.564 ( 0.799)	Data  3.454 ( 0.582)	Loss 2.7769e+00 (2.6069e+00)	Acc@1  44.53 ( 43.72)	Acc@5  62.50 ( 68.52)
+cur lr:  0.09362395522208876
+Epoch: [19][ 6000/10010]	Time  4.069 ( 0.805)	Data  3.942 ( 0.589)	Loss 2.2512e+00 (2.6093e+00)	Acc@1  48.44 ( 43.71)	Acc@5  73.44 ( 68.47)
+cur lr:  0.09355990000976432
+Epoch: [19][ 7000/10010]	Time  0.777 ( 0.801)	Data  0.641 ( 0.586)	Loss 2.2029e+00 (2.6115e+00)	Acc@1  53.91 ( 43.66)	Acc@5  79.69 ( 68.42)
+cur lr:  0.09349554678638346
+Epoch: [19][ 8000/10010]	Time  4.004 ( 0.803)	Data  3.892 ( 0.590)	Loss 2.6731e+00 (2.6142e+00)	Acc@1  40.62 ( 43.63)	Acc@5  66.41 ( 68.38)
+cur lr:  0.09343089599221285
+Epoch: [19][ 9000/10010]	Time  3.771 ( 0.801)	Data  3.627 ( 0.588)	Loss 2.6829e+00 (2.6156e+00)	Acc@1  41.41 ( 43.61)	Acc@5  67.97 ( 68.35)
+cur lr:  0.09336594806955496
+Epoch: [19][10000/10010]	Time  4.905 ( 0.802)	Data  4.795 ( 0.589)	Loss 2.4065e+00 (2.6146e+00)	Acc@1  48.44 ( 43.63)	Acc@5  70.31 ( 68.39)
+cur lr:  0.09330070346274505
+Test: [  0/391]	Time  6.481 ( 6.481)	Loss 1.2279e+00 (1.2279e+00)	Acc@1  75.00 ( 75.00)	Acc@5  87.50 ( 87.50)
+ * Acc@1 46.502 Acc@5 72.316
+Epoch: [20][    0/10010]	Time  7.192 ( 7.192)	Data  7.079 ( 7.079)	Loss 2.7398e+00 (2.7398e+00)	Acc@1  41.41 ( 41.41)	Acc@5  69.53 ( 69.53)
+cur lr:  0.09330004951993057
+Epoch: [20][ 1000/10010]	Time  4.004 ( 0.834)	Data  3.893 ( 0.610)	Loss 3.0514e+00 (2.5757e+00)	Acc@1  39.06 ( 44.18)	Acc@5  62.50 ( 68.96)
+cur lr:  0.09323450571521674
+Epoch: [20][ 2000/10010]	Time  4.308 ( 0.839)	Data  4.196 ( 0.617)	Loss 2.7311e+00 (2.5863e+00)	Acc@1  40.62 ( 43.98)	Acc@5  66.41 ( 68.83)
+cur lr:  0.0931686661256017
+Epoch: [20][ 3000/10010]	Time  6.589 ( 0.850)	Data  6.477 ( 0.631)	Loss 2.5114e+00 (2.5893e+00)	Acc@1  50.00 ( 43.93)	Acc@5  69.53 ( 68.79)
+cur lr:  0.09310253120152093
+Epoch: [20][ 4000/10010]	Time  0.264 ( 0.850)	Data  0.000 ( 0.631)	Loss 2.4212e+00 (2.5937e+00)	Acc@1  48.44 ( 43.90)	Acc@5  66.41 ( 68.74)
+cur lr:  0.09303610139543045
+Epoch: [20][ 5000/10010]	Time  1.223 ( 0.845)	Data  1.107 ( 0.627)	Loss 2.7315e+00 (2.5941e+00)	Acc@1  46.09 ( 43.93)	Acc@5  66.41 ( 68.72)
+cur lr:  0.09296937716180367
+Epoch: [20][ 6000/10010]	Time  1.131 ( 0.848)	Data  0.965 ( 0.632)	Loss 2.5368e+00 (2.5991e+00)	Acc@1  42.19 ( 43.85)	Acc@5  68.75 ( 68.66)
+cur lr:  0.09290235895712834
+Epoch: [20][ 7000/10010]	Time  0.236 ( 0.845)	Data  0.000 ( 0.631)	Loss 2.9751e+00 (2.6006e+00)	Acc@1  37.50 ( 43.84)	Acc@5  64.06 ( 68.63)
+cur lr:  0.09283504723990331
+Epoch: [20][ 8000/10010]	Time  0.236 ( 0.846)	Data  0.000 ( 0.632)	Loss 2.9656e+00 (2.6025e+00)	Acc@1  35.16 ( 43.82)	Acc@5  60.16 ( 68.61)
+cur lr:  0.09276744247063554
+Epoch: [20][ 9000/10010]	Time  0.221 ( 0.848)	Data  0.000 ( 0.633)	Loss 2.4619e+00 (2.6040e+00)	Acc@1  49.22 ( 43.80)	Acc@5  73.44 ( 68.58)
+cur lr:  0.09269954511183683
+Epoch: [20][10000/10010]	Time  0.235 ( 0.847)	Data  0.000 ( 0.631)	Loss 3.0758e+00 (2.6052e+00)	Acc@1  40.62 ( 43.78)	Acc@5  60.16 ( 68.57)
+cur lr:  0.09263135562802076
+Test: [  0/391]	Time  5.803 ( 5.803)	Loss 1.3760e+00 (1.3760e+00)	Acc@1  65.62 ( 65.62)	Acc@5  91.41 ( 91.41)
+ * Acc@1 46.760 Acc@5 73.014
+Epoch: [21][    0/10010]	Time  7.918 ( 7.918)	Data  7.796 ( 7.796)	Loss 2.4401e+00 (2.4401e+00)	Acc@1  50.78 ( 50.78)	Acc@5  72.66 ( 72.66)
+cur lr:  0.09263067225952804
+Epoch: [21][ 1000/10010]	Time  0.208 ( 0.856)	Data  0.000 ( 0.663)	Loss 2.5914e+00 (2.5642e+00)	Acc@1  46.88 ( 44.48)	Acc@5  67.97 ( 69.20)
+cur lr:  0.09256218820298426
+Epoch: [21][ 2000/10010]	Time  0.233 ( 0.843)	Data  0.000 ( 0.647)	Loss 2.1098e+00 (2.5740e+00)	Acc@1  53.12 ( 44.37)	Acc@5  78.91 ( 69.07)
+cur lr:  0.09249341296113778
+Epoch: [21][ 3000/10010]	Time  0.203 ( 0.841)	Data  0.000 ( 0.643)	Loss 2.8988e+00 (2.5824e+00)	Acc@1  44.53 ( 44.16)	Acc@5  63.28 ( 68.95)
+cur lr:  0.0924243470045081
+Epoch: [21][ 4000/10010]	Time  0.252 ( 0.846)	Data  0.000 ( 0.642)	Loss 2.4915e+00 (2.5859e+00)	Acc@1  37.50 ( 44.07)	Acc@5  72.66 ( 68.88)
+cur lr:  0.09235499080560364
+Epoch: [21][ 5000/10010]	Time  0.334 ( 0.838)	Data  0.224 ( 0.634)	Loss 2.2630e+00 (2.5890e+00)	Acc@1  50.00 ( 44.04)	Acc@5  69.53 ( 68.83)
+cur lr:  0.09228534483891844
+Epoch: [21][ 6000/10010]	Time  0.256 ( 0.838)	Data  0.000 ( 0.635)	Loss 2.7085e+00 (2.5917e+00)	Acc@1  39.06 ( 44.00)	Acc@5  63.28 ( 68.78)
+cur lr:  0.09221540958092901
+Epoch: [21][ 7000/10010]	Time  0.199 ( 0.842)	Data  0.000 ( 0.637)	Loss 2.5778e+00 (2.5944e+00)	Acc@1  44.53 ( 43.96)	Acc@5  67.97 ( 68.72)
+cur lr:  0.09214518551009099
+Epoch: [21][ 8000/10010]	Time  0.260 ( 0.839)	Data  0.000 ( 0.632)	Loss 2.3731e+00 (2.5966e+00)	Acc@1  46.09 ( 43.94)	Acc@5  69.53 ( 68.67)
+cur lr:  0.09207467310683588
+Epoch: [21][ 9000/10010]	Time  0.233 ( 0.847)	Data  0.000 ( 0.641)	Loss 2.9482e+00 (2.5965e+00)	Acc@1  41.41 ( 43.95)	Acc@5  59.38 ( 68.68)
+cur lr:  0.09200387285356787
+Epoch: [21][10000/10010]	Time  0.234 ( 0.853)	Data  0.000 ( 0.646)	Loss 3.0036e+00 (2.5985e+00)	Acc@1  36.72 ( 43.93)	Acc@5  56.25 ( 68.66)
+cur lr:  0.09193278523466034
+Test: [  0/391]	Time  6.490 ( 6.490)	Loss 1.4845e+00 (1.4845e+00)	Acc@1  72.66 ( 72.66)	Acc@5  85.16 ( 85.16)
+ * Acc@1 46.898 Acc@5 73.254
+Epoch: [22][    0/10010]	Time  7.247 ( 7.247)	Data  7.112 ( 7.112)	Loss 2.6799e+00 (2.6799e+00)	Acc@1  43.75 ( 43.75)	Acc@5  62.50 ( 62.50)
+cur lr:  0.09193207290891867
+Epoch: [22][ 1000/10010]	Time  0.211 ( 0.854)	Data  0.000 ( 0.654)	Loss 2.5561e+00 (2.5579e+00)	Acc@1  44.53 ( 44.59)	Acc@5  71.09 ( 69.40)
+cur lr:  0.09186069554438073
+Epoch: [22][ 2000/10010]	Time  2.764 ( 0.844)	Data  2.616 ( 0.638)	Loss 2.5626e+00 (2.5622e+00)	Acc@1  40.62 ( 44.54)	Acc@5  71.09 ( 69.28)
+cur lr:  0.0917890317937377
+Epoch: [22][ 3000/10010]	Time  5.001 ( 0.832)	Data  4.887 ( 0.625)	Loss 2.6595e+00 (2.5681e+00)	Acc@1  46.88 ( 44.41)	Acc@5  64.84 ( 69.19)
+cur lr:  0.09171708214727055
+Epoch: [22][ 4000/10010]	Time  0.466 ( 0.836)	Data  0.356 ( 0.628)	Loss 2.5134e+00 (2.5759e+00)	Acc@1  45.31 ( 44.28)	Acc@5  71.09 ( 69.08)
+cur lr:  0.0916448470972162
+Epoch: [22][ 5000/10010]	Time  0.218 ( 0.840)	Data  0.000 ( 0.631)	Loss 2.4128e+00 (2.5765e+00)	Acc@1  50.78 ( 44.27)	Acc@5  71.09 ( 69.09)
+cur lr:  0.09157232713776409
+Epoch: [22][ 6000/10010]	Time  0.234 ( 0.842)	Data  0.000 ( 0.632)	Loss 2.5284e+00 (2.5799e+00)	Acc@1  49.22 ( 44.20)	Acc@5  71.09 ( 69.03)
+cur lr:  0.09149952276505288
+Epoch: [22][ 7000/10010]	Time  0.904 ( 0.856)	Data  0.794 ( 0.645)	Loss 2.4169e+00 (2.5836e+00)	Acc@1  47.66 ( 44.12)	Acc@5  71.09 ( 68.95)
+cur lr:  0.09142643447716699
+Epoch: [22][ 8000/10010]	Time  0.241 ( 0.852)	Data  0.000 ( 0.641)	Loss 2.7100e+00 (2.5851e+00)	Acc@1  40.62 ( 44.11)	Acc@5  65.62 ( 68.91)
+cur lr:  0.09135306277413324
+Epoch: [22][ 9000/10010]	Time  0.229 ( 0.856)	Data  0.001 ( 0.644)	Loss 2.4738e+00 (2.5870e+00)	Acc@1  48.44 ( 44.08)	Acc@5  67.19 ( 68.88)
+cur lr:  0.09127940815791741
+Epoch: [22][10000/10010]	Time  0.234 ( 0.863)	Data  0.000 ( 0.651)	Loss 2.3569e+00 (2.5885e+00)	Acc@1  46.09 ( 44.07)	Acc@5  69.53 ( 68.85)
+cur lr:  0.09120547113242075
+Test: [  0/391]	Time  6.098 ( 6.098)	Loss 1.2196e+00 (1.2196e+00)	Acc@1  67.19 ( 67.19)	Acc@5  91.41 ( 91.41)
+ * Acc@1 45.234 Acc@5 71.322
+Epoch: [23][    0/10010]	Time  6.450 ( 6.450)	Data  6.319 ( 6.319)	Loss 2.5527e+00 (2.5527e+00)	Acc@1  46.09 ( 46.09)	Acc@5  67.97 ( 67.97)
+cur lr:  0.0912047303377088
+Epoch: [23][ 1000/10010]	Time  5.862 ( 0.846)	Data  5.751 ( 0.628)	Loss 2.7341e+00 (2.5542e+00)	Acc@1  46.88 ( 44.59)	Acc@5  64.06 ( 69.40)
+cur lr:  0.09113050859229123
+Epoch: [23][ 2000/10010]	Time  0.995 ( 0.848)	Data  0.867 ( 0.633)	Loss 2.4101e+00 (2.5622e+00)	Acc@1  48.44 ( 44.48)	Acc@5  71.88 ( 69.25)
+cur lr:  0.09105600545627557
+Epoch: [23][ 3000/10010]	Time  4.884 ( 0.856)	Data  4.764 ( 0.642)	Loss 2.8339e+00 (2.5638e+00)	Acc@1  44.53 ( 44.44)	Acc@5  66.41 ( 69.26)
+cur lr:  0.09098122143936821
+Epoch: [23][ 4000/10010]	Time  4.827 ( 0.865)	Data  4.713 ( 0.648)	Loss 2.6445e+00 (2.5694e+00)	Acc@1  40.62 ( 44.36)	Acc@5  64.06 ( 69.17)
+cur lr:  0.09090615705319707
+Epoch: [23][ 5000/10010]	Time  0.234 ( 0.856)	Data  0.000 ( 0.639)	Loss 2.4105e+00 (2.5702e+00)	Acc@1  41.41 ( 44.33)	Acc@5  71.88 ( 69.13)
+cur lr:  0.09083081281130831
+Epoch: [23][ 6000/10010]	Time  0.233 ( 0.855)	Data  0.000 ( 0.638)	Loss 2.6592e+00 (2.5722e+00)	Acc@1  40.62 ( 44.31)	Acc@5  64.84 ( 69.12)
+cur lr:  0.09075518922916262
+Epoch: [23][ 7000/10010]	Time  0.276 ( 0.856)	Data  0.000 ( 0.641)	Loss 2.7515e+00 (2.5733e+00)	Acc@1  41.41 ( 44.29)	Acc@5  64.84 ( 69.11)
+cur lr:  0.0906792868241318
+Epoch: [23][ 8000/10010]	Time  0.276 ( 0.853)	Data  0.000 ( 0.638)	Loss 2.2053e+00 (2.5743e+00)	Acc@1  50.78 ( 44.30)	Acc@5  73.44 ( 69.08)
+cur lr:  0.09060310611549519
+Epoch: [23][ 9000/10010]	Time  0.232 ( 0.866)	Data  0.012 ( 0.650)	Loss 3.0355e+00 (2.5762e+00)	Acc@1  35.94 ( 44.28)	Acc@5  57.81 ( 69.06)
+cur lr:  0.0905266476244361
+Epoch: [23][10000/10010]	Time  2.339 ( 0.860)	Data  2.229 ( 0.645)	Loss 2.5143e+00 (2.5786e+00)	Acc@1  41.41 ( 44.24)	Acc@5  66.41 ( 69.03)
+cur lr:  0.0904499118740383
+Test: [  0/391]	Time  5.895 ( 5.895)	Loss 1.6152e+00 (1.6152e+00)	Acc@1  64.84 ( 64.84)	Acc@5  83.59 ( 83.59)
+ * Acc@1 44.738 Acc@5 70.936
+Epoch: [24][    0/10010]	Time  7.213 ( 7.213)	Data  6.994 ( 6.994)	Loss 2.6103e+00 (2.6103e+00)	Acc@1  42.19 ( 42.19)	Acc@5  73.44 ( 73.44)
+cur lr:  0.09044914311814933
+Epoch: [24][ 1000/10010]	Time  0.169 ( 0.808)	Data  0.000 ( 0.588)	Loss 2.2421e+00 (2.5354e+00)	Acc@1  48.44 ( 44.98)	Acc@5  75.78 ( 69.69)
+cur lr:  0.09037212786870737
+Epoch: [24][ 2000/10010]	Time  0.223 ( 0.829)	Data  0.000 ( 0.614)	Loss 2.6160e+00 (2.5496e+00)	Acc@1  36.72 ( 44.75)	Acc@5  68.75 ( 69.49)
+cur lr:  0.0902948364170594
+Epoch: [24][ 3000/10010]	Time  0.232 ( 0.818)	Data  0.121 ( 0.600)	Loss 2.7121e+00 (2.5536e+00)	Acc@1  41.41 ( 44.71)	Acc@5  64.84 ( 69.42)
+cur lr:  0.0902172692919878
+Epoch: [24][ 4000/10010]	Time  0.255 ( 0.820)	Data  0.000 ( 0.600)	Loss 2.6630e+00 (2.5585e+00)	Acc@1  42.19 ( 44.61)	Acc@5  70.31 ( 69.33)
+cur lr:  0.09013942702416092
+Epoch: [24][ 5000/10010]	Time  0.227 ( 0.822)	Data  0.000 ( 0.602)	Loss 2.9864e+00 (2.5622e+00)	Acc@1  41.41 ( 44.55)	Acc@5  60.16 ( 69.26)
+cur lr:  0.0900613101461295
+Epoch: [24][ 6000/10010]	Time  0.222 ( 0.822)	Data  0.000 ( 0.603)	Loss 2.6222e+00 (2.5642e+00)	Acc@1  47.66 ( 44.53)	Acc@5  67.19 ( 69.23)
+cur lr:  0.08998291919232299
+Epoch: [24][ 7000/10010]	Time  0.232 ( 0.822)	Data  0.000 ( 0.604)	Loss 2.5996e+00 (2.5667e+00)	Acc@1  43.75 ( 44.47)	Acc@5  74.22 ( 69.19)
+cur lr:  0.0899042546990459
+Epoch: [24][ 8000/10010]	Time  0.243 ( 0.823)	Data  0.000 ( 0.606)	Loss 2.6553e+00 (2.5678e+00)	Acc@1  42.19 ( 44.48)	Acc@5  66.41 ( 69.16)
+cur lr:  0.08982531720447413
+Epoch: [24][ 9000/10010]	Time  0.246 ( 0.820)	Data  0.000 ( 0.602)	Loss 2.4744e+00 (2.5688e+00)	Acc@1  48.44 ( 44.47)	Acc@5  70.31 ( 69.15)
+cur lr:  0.08974610724865131
+Epoch: [24][10000/10010]	Time  2.723 ( 0.819)	Data  2.613 ( 0.601)	Loss 2.7606e+00 (2.5706e+00)	Acc@1  41.41 ( 44.46)	Acc@5  67.97 ( 69.13)
+cur lr:  0.08966662537348509
+Test: [  0/391]	Time  6.583 ( 6.583)	Loss 1.3058e+00 (1.3058e+00)	Acc@1  65.62 ( 65.62)	Acc@5  92.19 ( 92.19)
+ * Acc@1 47.602 Acc@5 73.408
+Epoch: [25][    0/10010]	Time  7.577 ( 7.577)	Data  7.407 ( 7.407)	Loss 2.5922e+00 (2.5922e+00)	Acc@1  44.53 ( 44.53)	Acc@5  71.88 ( 71.88)
+cur lr:  0.08966582918337902
+Epoch: [25][ 1000/10010]	Time  3.318 ( 0.844)	Data  3.205 ( 0.635)	Loss 2.4627e+00 (2.5383e+00)	Acc@1  45.31 ( 45.09)	Acc@5  68.75 ( 69.62)
+cur lr:  0.08958607322163391
+Epoch: [25][ 2000/10010]	Time  4.726 ( 0.836)	Data  4.615 ( 0.623)	Loss 2.5800e+00 (2.5358e+00)	Acc@1  44.53 ( 45.09)	Acc@5  65.62 ( 69.68)
+cur lr:  0.08950604643540346
+Epoch: [25][ 3000/10010]	Time  3.557 ( 0.831)	Data  3.435 ( 0.615)	Loss 2.4057e+00 (2.5403e+00)	Acc@1  50.00 ( 44.98)	Acc@5  70.31 ( 69.61)
+cur lr:  0.08942574937218363
+Epoch: [25][ 4000/10010]	Time  0.234 ( 0.838)	Data  0.000 ( 0.621)	Loss 2.3971e+00 (2.5480e+00)	Acc@1  52.34 ( 44.84)	Acc@5  67.97 ( 69.46)
+cur lr:  0.08934518258131939
+Epoch: [25][ 5000/10010]	Time  0.233 ( 0.845)	Data  0.000 ( 0.627)	Loss 2.8850e+00 (2.5516e+00)	Acc@1  34.38 ( 44.79)	Acc@5  64.84 ( 69.40)
+cur lr:  0.08926434661400102
+Epoch: [25][ 6000/10010]	Time  0.231 ( 0.842)	Data  0.000 ( 0.624)	Loss 2.4197e+00 (2.5531e+00)	Acc@1  44.53 ( 44.75)	Acc@5  72.66 ( 69.39)
+cur lr:  0.0891832420232604
+Epoch: [25][ 7000/10010]	Time  0.216 ( 0.845)	Data  0.000 ( 0.627)	Loss 2.4222e+00 (2.5564e+00)	Acc@1  47.66 ( 44.70)	Acc@5  72.66 ( 69.35)
+cur lr:  0.08910186936396713
+Epoch: [25][ 8000/10010]	Time  0.279 ( 0.839)	Data  0.000 ( 0.621)	Loss 2.6008e+00 (2.5585e+00)	Acc@1  46.88 ( 44.66)	Acc@5  65.62 ( 69.33)
+cur lr:  0.08902022919282478
+Epoch: [25][ 9000/10010]	Time  0.235 ( 0.839)	Data  0.000 ( 0.621)	Loss 2.5728e+00 (2.5600e+00)	Acc@1  42.19 ( 44.64)	Acc@5  71.09 ( 69.31)
+cur lr:  0.0889383220683671
+Epoch: [25][10000/10010]	Time  1.467 ( 0.842)	Data  1.357 ( 0.624)	Loss 2.2224e+00 (2.5617e+00)	Acc@1  49.22 ( 44.60)	Acc@5  80.47 ( 69.29)
+cur lr:  0.08885614855095414
+Test: [  0/391]	Time  5.889 ( 5.889)	Loss 1.4030e+00 (1.4030e+00)	Acc@1  71.88 ( 71.88)	Acc@5  85.94 ( 85.94)
+ * Acc@1 47.226 Acc@5 73.354
+Epoch: [26][    0/10010]	Time  7.472 ( 7.472)	Data  7.347 ( 7.347)	Loss 2.8293e+00 (2.8293e+00)	Acc@1  43.75 ( 43.75)	Acc@5  68.75 ( 68.75)
+cur lr:  0.08885532547239622
+Epoch: [26][ 1000/10010]	Time  0.234 ( 0.862)	Data  0.000 ( 0.659)	Loss 2.2095e+00 (2.5283e+00)	Acc@1  48.44 ( 45.02)	Acc@5  73.44 ( 69.77)
+cur lr:  0.08877288346874801
+Epoch: [26][ 2000/10010]	Time  0.240 ( 0.843)	Data  0.000 ( 0.642)	Loss 2.8900e+00 (2.5305e+00)	Acc@1  38.28 ( 45.09)	Acc@5  68.75 ( 69.74)
+cur lr:  0.08869017620397755
+Epoch: [26][ 3000/10010]	Time  0.234 ( 0.827)	Data  0.000 ( 0.623)	Loss 2.5369e+00 (2.5381e+00)	Acc@1  41.41 ( 45.00)	Acc@5  70.31 ( 69.64)
+cur lr:  0.08860720424391895
+Epoch: [26][ 4000/10010]	Time  0.215 ( 0.841)	Data  0.000 ( 0.633)	Loss 2.8825e+00 (2.5430e+00)	Acc@1  43.75 ( 44.92)	Acc@5  64.84 ( 69.52)
+cur lr:  0.08852396815621728
+Epoch: [26][ 5000/10010]	Time  0.232 ( 0.850)	Data  0.000 ( 0.640)	Loss 2.5618e+00 (2.5460e+00)	Acc@1  44.53 ( 44.89)	Acc@5  71.88 ( 69.48)
+cur lr:  0.0884404685103246
+Epoch: [26][ 6000/10010]	Time  0.233 ( 0.864)	Data  0.000 ( 0.653)	Loss 2.4849e+00 (2.5477e+00)	Acc@1  46.88 ( 44.85)	Acc@5  68.75 ( 69.45)
+cur lr:  0.08835670587749606
+Epoch: [26][ 7000/10010]	Time  0.267 ( 0.858)	Data  0.000 ( 0.648)	Loss 2.7492e+00 (2.5481e+00)	Acc@1  41.41 ( 44.83)	Acc@5  65.62 ( 69.45)
+cur lr:  0.08827268083078599
+Epoch: [26][ 8000/10010]	Time  0.235 ( 0.862)	Data  0.000 ( 0.653)	Loss 2.4434e+00 (2.5497e+00)	Acc@1  51.56 ( 44.82)	Acc@5  71.09 ( 69.40)
+cur lr:  0.08818839394504407
+Epoch: [26][ 9000/10010]	Time  0.263 ( 0.859)	Data  0.000 ( 0.649)	Loss 2.3156e+00 (2.5528e+00)	Acc@1  49.22 ( 44.76)	Acc@5  71.88 ( 69.36)
+cur lr:  0.08810384579691131
+Epoch: [26][10000/10010]	Time  0.233 ( 0.858)	Data  0.000 ( 0.647)	Loss 2.2469e+00 (2.5548e+00)	Acc@1  44.53 ( 44.74)	Acc@5  74.22 ( 69.34)
+cur lr:  0.08801903696481606
+Test: [  0/391]	Time  6.181 ( 6.181)	Loss 1.3601e+00 (1.3601e+00)	Acc@1  73.44 ( 73.44)	Acc@5  87.50 ( 87.50)
+ * Acc@1 48.146 Acc@5 73.214
+Epoch: [27][    0/10010]	Time  8.021 ( 8.021)	Data  7.910 ( 7.910)	Loss 2.8469e+00 (2.8469e+00)	Acc@1  40.62 ( 40.62)	Acc@5  68.75 ( 68.75)
+cur lr:  0.08801818756200275
+Epoch: [27][ 1000/10010]	Time  0.232 ( 0.887)	Data  0.000 ( 0.684)	Loss 2.5661e+00 (2.5215e+00)	Acc@1  50.78 ( 45.22)	Acc@5  67.97 ( 69.96)
+cur lr:  0.08793311602805545
+Epoch: [27][ 2000/10010]	Time  2.718 ( 0.894)	Data  2.607 ( 0.689)	Loss 2.2391e+00 (2.5242e+00)	Acc@1  50.78 ( 45.13)	Acc@5  75.00 ( 69.90)
+cur lr:  0.08784778497817772
+Epoch: [27][ 3000/10010]	Time  0.245 ( 0.885)	Data  0.000 ( 0.678)	Loss 2.7815e+00 (2.5304e+00)	Acc@1  44.53 ( 45.08)	Acc@5  64.06 ( 69.78)
+cur lr:  0.08776219499615408
+Epoch: [27][ 4000/10010]	Time  0.232 ( 0.890)	Data  0.000 ( 0.684)	Loss 2.5343e+00 (2.5341e+00)	Acc@1  45.31 ( 44.97)	Acc@5  65.62 ( 69.72)
+cur lr:  0.08767634666754057
+Epoch: [27][ 5000/10010]	Time  0.231 ( 0.886)	Data  0.001 ( 0.677)	Loss 2.1642e+00 (2.5340e+00)	Acc@1  53.91 ( 45.01)	Acc@5  74.22 ( 69.71)
+cur lr:  0.08759024057966061
+Epoch: [27][ 6000/10010]	Time  0.258 ( 0.883)	Data  0.000 ( 0.673)	Loss 2.9022e+00 (2.5389e+00)	Acc@1  45.31 ( 44.96)	Acc@5  63.28 ( 69.63)
+cur lr:  0.08750387732160113
+Epoch: [27][ 7000/10010]	Time  0.248 ( 0.886)	Data  0.000 ( 0.676)	Loss 2.8409e+00 (2.5407e+00)	Acc@1  40.62 ( 44.95)	Acc@5  64.06 ( 69.60)
+cur lr:  0.0874172574842084
+Epoch: [27][ 8000/10010]	Time  0.228 ( 0.881)	Data  0.000 ( 0.672)	Loss 2.5703e+00 (2.5409e+00)	Acc@1  39.06 ( 44.99)	Acc@5  73.44 ( 69.61)
+cur lr:  0.0873303816600841
+Epoch: [27][ 9000/10010]	Time  0.233 ( 0.877)	Data  0.000 ( 0.666)	Loss 2.3559e+00 (2.5422e+00)	Acc@1  45.31 ( 44.95)	Acc@5  72.66 ( 69.58)
+cur lr:  0.0872432504435812
+Epoch: [27][10000/10010]	Time  2.294 ( 0.876)	Data  2.174 ( 0.665)	Loss 2.2647e+00 (2.5430e+00)	Acc@1  52.34 ( 44.95)	Acc@5  74.22 ( 69.57)
+cur lr:  0.08715586443079991
+Test: [  0/391]	Time  6.290 ( 6.290)	Loss 1.7120e+00 (1.7120e+00)	Acc@1  61.72 ( 61.72)	Acc@5  84.38 ( 84.38)
+ * Acc@1 48.184 Acc@5 74.038
+Epoch: [28][    0/10010]	Time  6.844 ( 6.844)	Data  6.725 ( 6.725)	Loss 2.0762e+00 (2.0762e+00)	Acc@1  53.91 ( 53.91)	Acc@5  75.78 ( 75.78)
+cur lr:  0.08715498928597223
+Epoch: [28][ 1000/10010]	Time  0.222 ( 0.858)	Data  0.000 ( 0.654)	Loss 2.5891e+00 (2.5091e+00)	Acc@1  42.97 ( 45.44)	Acc@5  70.31 ( 70.00)
+cur lr:  0.0870673465357966
+Epoch: [28][ 2000/10010]	Time  2.476 ( 0.858)	Data  2.366 ( 0.647)	Loss 2.7130e+00 (2.5164e+00)	Acc@1  47.66 ( 45.42)	Acc@5  65.62 ( 69.95)
+cur lr:  0.08697945019277302
+Epoch: [28][ 3000/10010]	Time  4.982 ( 0.860)	Data  4.872 ( 0.647)	Loss 2.6325e+00 (2.5210e+00)	Acc@1  42.19 ( 45.31)	Acc@5  67.97 ( 69.88)
+cur lr:  0.08689130085823625
+Epoch: [28][ 4000/10010]	Time  4.286 ( 0.852)	Data  4.128 ( 0.638)	Loss 2.2376e+00 (2.5248e+00)	Acc@1  49.22 ( 45.32)	Acc@5  75.78 ( 69.83)
+cur lr:  0.08680289913525187
+Epoch: [28][ 5000/10010]	Time  3.096 ( 0.844)	Data  2.985 ( 0.628)	Loss 2.4658e+00 (2.5272e+00)	Acc@1  47.66 ( 45.27)	Acc@5  71.88 ( 69.80)
+cur lr:  0.08671424562861216
+Epoch: [28][ 6000/10010]	Time  3.771 ( 0.838)	Data  3.636 ( 0.623)	Loss 2.6212e+00 (2.5292e+00)	Acc@1  42.19 ( 45.22)	Acc@5  67.19 ( 69.76)
+cur lr:  0.08662534094483193
+Epoch: [28][ 7000/10010]	Time  0.250 ( 0.834)	Data  0.000 ( 0.620)	Loss 2.5462e+00 (2.5314e+00)	Acc@1  53.12 ( 45.17)	Acc@5  71.09 ( 69.73)
+cur lr:  0.08653618569214444
+Epoch: [28][ 8000/10010]	Time  0.220 ( 0.827)	Data  0.000 ( 0.613)	Loss 2.5398e+00 (2.5335e+00)	Acc@1  43.75 ( 45.13)	Acc@5  65.62 ( 69.70)
+cur lr:  0.08644678048049713
+Epoch: [28][ 9000/10010]	Time  0.281 ( 0.821)	Data  0.000 ( 0.607)	Loss 2.6654e+00 (2.5350e+00)	Acc@1  45.31 ( 45.11)	Acc@5  71.88 ( 69.67)
+cur lr:  0.08635712592154755
+Epoch: [28][10000/10010]	Time  0.223 ( 0.817)	Data  0.000 ( 0.603)	Loss 2.3754e+00 (2.5365e+00)	Acc@1  48.44 ( 45.09)	Acc@5  70.31 ( 69.65)
+cur lr:  0.08626722262865916
+Test: [  0/391]	Time  5.735 ( 5.735)	Loss 1.1043e+00 (1.1043e+00)	Acc@1  75.00 ( 75.00)	Acc@5  92.19 ( 92.19)
+ * Acc@1 49.428 Acc@5 75.062
+Epoch: [29][    0/10010]	Time  6.928 ( 6.928)	Data  6.750 ( 6.750)	Loss 2.3841e+00 (2.3841e+00)	Acc@1  40.62 ( 40.62)	Acc@5  69.53 ( 69.53)
+cur lr:  0.08626632234170353
+Epoch: [29][ 1000/10010]	Time  4.181 ( 0.779)	Data  4.061 ( 0.555)	Loss 2.8679e+00 (2.4965e+00)	Acc@1  34.38 ( 45.80)	Acc@5  64.06 ( 70.24)
+cur lr:  0.08617616845186454
+Epoch: [29][ 2000/10010]	Time  4.376 ( 0.778)	Data  4.250 ( 0.553)	Loss 2.4664e+00 (2.5055e+00)	Acc@1  45.31 ( 45.60)	Acc@5  72.66 ( 70.09)
+cur lr:  0.08608576706609061
+Epoch: [29][ 3000/10010]	Time  4.344 ( 0.786)	Data  4.223 ( 0.561)	Loss 2.5434e+00 (2.5130e+00)	Acc@1  48.44 ( 45.46)	Acc@5  70.31 ( 69.95)
+cur lr:  0.08599511880285458
+Epoch: [29][ 4000/10010]	Time  4.132 ( 0.784)	Data  4.020 ( 0.558)	Loss 2.6920e+00 (2.5164e+00)	Acc@1  41.41 ( 45.39)	Acc@5  66.41 ( 69.90)
+cur lr:  0.08590422428231818
+Epoch: [29][ 5000/10010]	Time  4.175 ( 0.784)	Data  4.045 ( 0.558)	Loss 2.2497e+00 (2.5218e+00)	Acc@1  50.00 ( 45.30)	Acc@5  73.44 ( 69.84)
+cur lr:  0.08581308412632793
+Epoch: [29][ 6000/10010]	Time  1.229 ( 0.784)	Data  1.113 ( 0.559)	Loss 2.4775e+00 (2.5232e+00)	Acc@1  39.06 ( 45.27)	Acc@5  69.53 ( 69.82)
+cur lr:  0.08572169895841085
+Epoch: [29][ 7000/10010]	Time  0.233 ( 0.781)	Data  0.001 ( 0.558)	Loss 2.2445e+00 (2.5254e+00)	Acc@1  52.34 ( 45.24)	Acc@5  73.44 ( 69.80)
+cur lr:  0.08563006940377016
+Epoch: [29][ 8000/10010]	Time  3.306 ( 0.778)	Data  3.194 ( 0.557)	Loss 2.4271e+00 (2.5263e+00)	Acc@1  47.66 ( 45.23)	Acc@5  70.31 ( 69.80)
+cur lr:  0.08553819608928108
+Epoch: [29][ 9000/10010]	Time  0.241 ( 0.776)	Data  0.000 ( 0.555)	Loss 2.1239e+00 (2.5265e+00)	Acc@1  57.81 ( 45.22)	Acc@5  75.00 ( 69.79)
+cur lr:  0.08544607964348641
+Epoch: [29][10000/10010]	Time  2.425 ( 0.774)	Data  2.314 ( 0.554)	Loss 2.6740e+00 (2.5272e+00)	Acc@1  45.31 ( 45.22)	Acc@5  65.62 ( 69.78)
+cur lr:  0.0853537206965924
+Test: [  0/391]	Time  6.079 ( 6.079)	Loss 1.7670e+00 (1.7670e+00)	Acc@1  64.84 ( 64.84)	Acc@5  81.25 ( 81.25)
+ * Acc@1 48.206 Acc@5 74.450
+Epoch: [30][    0/10010]	Time  6.929 ( 6.929)	Data  6.665 ( 6.665)	Loss 2.4571e+00 (2.4571e+00)	Acc@1  43.75 ( 43.75)	Acc@5  74.22 ( 74.22)
+cur lr:  0.08535279588462943
+Epoch: [30][ 1000/10010]	Time  4.493 ( 0.760)	Data  4.347 ( 0.535)	Loss 2.5541e+00 (2.4927e+00)	Acc@1  45.31 ( 45.85)	Acc@5  64.84 ( 70.30)
+cur lr:  0.0852601926530055
+Epoch: [30][ 2000/10010]	Time  0.191 ( 0.767)	Data  0.000 ( 0.545)	Loss 2.3643e+00 (2.4963e+00)	Acc@1  50.00 ( 45.77)	Acc@5  68.75 ( 70.25)
+cur lr:  0.08516734819201095
+Epoch: [30][ 3000/10010]	Time  0.232 ( 0.773)	Data  0.000 ( 0.558)	Loss 2.6095e+00 (2.5016e+00)	Acc@1  43.75 ( 45.66)	Acc@5  67.97 ( 70.23)
+cur lr:  0.0850742631368327
+Epoch: [30][ 4000/10010]	Time  0.263 ( 0.789)	Data  0.000 ( 0.575)	Loss 2.7537e+00 (2.5044e+00)	Acc@1  42.19 ( 45.59)	Acc@5  61.72 ( 70.19)
+cur lr:  0.08498093812430357
+Epoch: [30][ 5000/10010]	Time  0.213 ( 0.792)	Data  0.000 ( 0.580)	Loss 2.0423e+00 (2.5130e+00)	Acc@1  46.88 ( 45.44)	Acc@5  75.78 ( 70.06)
+cur lr:  0.08488737379289807
+Epoch: [30][ 6000/10010]	Time  0.268 ( 0.788)	Data  0.000 ( 0.575)	Loss 2.5674e+00 (2.5145e+00)	Acc@1  44.53 ( 45.43)	Acc@5  69.53 ( 70.04)
+cur lr:  0.08479357078272798
+Epoch: [30][ 7000/10010]	Time  0.207 ( 0.786)	Data  0.001 ( 0.572)	Loss 2.4401e+00 (2.5155e+00)	Acc@1  46.09 ( 45.41)	Acc@5  71.88 ( 70.02)
+cur lr:  0.08469952973553802
+Epoch: [30][ 8000/10010]	Time  0.226 ( 0.786)	Data  0.000 ( 0.571)	Loss 2.6337e+00 (2.5172e+00)	Acc@1  40.62 ( 45.38)	Acc@5  68.75 ( 69.99)
+cur lr:  0.08460525129470131
+Epoch: [30][ 9000/10010]	Time  0.234 ( 0.786)	Data  0.000 ( 0.570)	Loss 2.4915e+00 (2.5182e+00)	Acc@1  43.75 ( 45.37)	Acc@5  70.31 ( 69.98)
+cur lr:  0.0845107361052152
+Epoch: [30][10000/10010]	Time  0.234 ( 0.786)	Data  0.000 ( 0.570)	Loss 2.6811e+00 (2.5189e+00)	Acc@1  46.09 ( 45.36)	Acc@5  66.41 ( 69.97)
+cur lr:  0.08441598481369667
+Test: [  0/391]	Time  5.786 ( 5.786)	Loss 1.2971e+00 (1.2971e+00)	Acc@1  73.44 ( 73.44)	Acc@5  86.72 ( 86.72)
+ * Acc@1 48.644 Acc@5 74.710
+Epoch: [31][    0/10010]	Time  7.725 ( 7.725)	Data  7.612 ( 7.612)	Loss 2.2557e+00 (2.2557e+00)	Acc@1  45.31 ( 45.31)	Acc@5  78.12 ( 78.12)
+cur lr:  0.08441503611065816
+Epoch: [31][ 1000/10010]	Time  2.213 ( 0.756)	Data  2.101 ( 0.542)	Loss 2.6445e+00 (2.4738e+00)	Acc@1  45.31 ( 46.17)	Acc@5  65.62 ( 70.81)
+cur lr:  0.0843200470140805
+Epoch: [31][ 2000/10010]	Time  3.787 ( 0.795)	Data  3.626 ( 0.589)	Loss 2.3291e+00 (2.4841e+00)	Acc@1  47.66 ( 45.97)	Acc@5  74.22 ( 70.57)
+cur lr:  0.0842248231200523
+Epoch: [31][ 3000/10010]	Time  6.084 ( 0.806)	Data  5.964 ( 0.599)	Loss 2.7269e+00 (2.4878e+00)	Acc@1  40.62 ( 45.86)	Acc@5  69.53 ( 70.48)
+cur lr:  0.08412936508003914
+Epoch: [31][ 4000/10010]	Time  0.275 ( 0.808)	Data  0.000 ( 0.599)	Loss 2.2101e+00 (2.4948e+00)	Acc@1  52.34 ( 45.74)	Acc@5  77.34 ( 70.35)
+cur lr:  0.08403367354710839
+Epoch: [31][ 5000/10010]	Time  0.237 ( 0.838)	Data  0.000 ( 0.628)	Loss 2.2751e+00 (2.4996e+00)	Acc@1  52.34 ( 45.66)	Acc@5  74.22 ( 70.28)
+cur lr:  0.08393774917592492
+Epoch: [31][ 6000/10010]	Time  0.260 ( 0.854)	Data  0.000 ( 0.643)	Loss 2.5786e+00 (2.5017e+00)	Acc@1  49.22 ( 45.65)	Acc@5  66.41 ( 70.22)
+cur lr:  0.08384159262274647
+Epoch: [31][ 7000/10010]	Time  0.241 ( 0.860)	Data  0.000 ( 0.651)	Loss 2.7642e+00 (2.5047e+00)	Acc@1  46.88 ( 45.59)	Acc@5  66.41 ( 70.17)
+cur lr:  0.08374520454541931
+Epoch: [31][ 8000/10010]	Time  0.234 ( 0.855)	Data  0.000 ( 0.644)	Loss 2.3053e+00 (2.5076e+00)	Acc@1  54.69 ( 45.57)	Acc@5  76.56 ( 70.14)
+cur lr:  0.0836485856033736
+Epoch: [31][ 9000/10010]	Time  0.219 ( 0.846)	Data  0.000 ( 0.632)	Loss 2.4016e+00 (2.5100e+00)	Acc@1  42.19 ( 45.52)	Acc@5  73.44 ( 70.11)
+cur lr:  0.08355173645761896
+Epoch: [31][10000/10010]	Time  0.869 ( 0.838)	Data  0.759 ( 0.625)	Loss 2.4694e+00 (2.5118e+00)	Acc@1  46.88 ( 45.50)	Acc@5  69.53 ( 70.09)
+cur lr:  0.08345465777073995
+Test: [  0/391]	Time  6.098 ( 6.098)	Loss 1.5334e+00 (1.5334e+00)	Acc@1  64.06 ( 64.06)	Acc@5  82.81 ( 82.81)
+ * Acc@1 49.006 Acc@5 75.062
+Epoch: [32][    0/10010]	Time  7.422 ( 7.422)	Data  7.288 ( 7.288)	Loss 2.5795e+00 (2.5795e+00)	Acc@1  44.53 ( 44.53)	Acc@5  69.53 ( 69.53)
+cur lr:  0.08345368582693433
+Epoch: [32][ 1000/10010]	Time  0.276 ( 0.749)	Data  0.000 ( 0.546)	Loss 2.4229e+00 (2.4744e+00)	Acc@1  46.09 ( 46.22)	Acc@5  70.31 ( 70.67)
+cur lr:  0.08335637597767542
+Epoch: [32][ 2000/10010]	Time  0.224 ( 0.757)	Data  0.000 ( 0.544)	Loss 2.4404e+00 (2.4853e+00)	Acc@1  46.88 ( 45.97)	Acc@5  69.53 ( 70.45)
+cur lr:  0.08325883792383293
+Epoch: [32][ 3000/10010]	Time  0.232 ( 0.760)	Data  0.000 ( 0.548)	Loss 3.0644e+00 (2.4913e+00)	Acc@1  35.94 ( 45.79)	Acc@5  64.06 ( 70.33)
+cur lr:  0.08316107233270448
+Epoch: [32][ 4000/10010]	Time  0.233 ( 0.754)	Data  0.000 ( 0.545)	Loss 2.4099e+00 (2.4954e+00)	Acc@1  42.19 ( 45.75)	Acc@5  68.75 ( 70.28)
+cur lr:  0.08306307987314437
+Epoch: [32][ 5000/10010]	Time  0.264 ( 0.751)	Data  0.000 ( 0.543)	Loss 2.6788e+00 (2.4978e+00)	Acc@1  38.28 ( 45.73)	Acc@5  64.84 ( 70.25)
+cur lr:  0.08296486121555904
+Epoch: [32][ 6000/10010]	Time  3.792 ( 0.757)	Data  3.656 ( 0.549)	Loss 2.2533e+00 (2.4996e+00)	Acc@1  51.56 ( 45.70)	Acc@5  70.31 ( 70.24)
+cur lr:  0.08286641703190241
+Epoch: [32][ 7000/10010]	Time  2.099 ( 0.761)	Data  1.978 ( 0.551)	Loss 2.3764e+00 (2.5000e+00)	Acc@1  47.66 ( 45.71)	Acc@5  70.31 ( 70.24)
+cur lr:  0.08276774799567131
+Epoch: [32][ 8000/10010]	Time  1.122 ( 0.761)	Data  1.004 ( 0.551)	Loss 2.0903e+00 (2.5009e+00)	Acc@1  53.12 ( 45.71)	Acc@5  75.78 ( 70.24)
+cur lr:  0.0826688547819009
+Epoch: [32][ 9000/10010]	Time  4.616 ( 0.763)	Data  4.504 ( 0.552)	Loss 2.4086e+00 (2.5006e+00)	Acc@1  46.88 ( 45.72)	Acc@5  70.31 ( 70.23)
+cur lr:  0.08256973806716005
+Epoch: [32][10000/10010]	Time  0.512 ( 0.762)	Data  0.402 ( 0.550)	Loss 2.3930e+00 (2.5044e+00)	Acc@1  43.75 ( 45.65)	Acc@5  73.44 ( 70.18)
+cur lr:  0.08247039852954662
+Test: [  0/391]	Time  6.085 ( 6.085)	Loss 1.1755e+00 (1.1755e+00)	Acc@1  67.97 ( 67.97)	Acc@5  88.28 ( 88.28)
+ * Acc@1 48.780 Acc@5 74.192
+Epoch: [33][    0/10010]	Time  7.019 ( 7.019)	Data  6.869 ( 6.869)	Loss 2.3636e+00 (2.3636e+00)	Acc@1  50.00 ( 50.00)	Acc@5  73.44 ( 73.44)
+cur lr:  0.0824694040112132
+Epoch: [33][ 1000/10010]	Time  0.221 ( 0.783)	Data  0.000 ( 0.573)	Loss 2.8863e+00 (2.4554e+00)	Acc@1  42.97 ( 46.41)	Acc@5  63.28 ( 70.84)
+cur lr:  0.08236984011235426
+Epoch: [33][ 2000/10010]	Time  0.273 ( 0.796)	Data  0.000 ( 0.577)	Loss 2.6222e+00 (2.4753e+00)	Acc@1  48.44 ( 46.06)	Acc@5  68.75 ( 70.67)
+cur lr:  0.08227005475820628
+Epoch: [33][ 3000/10010]	Time  0.215 ( 0.780)	Data  0.000 ( 0.568)	Loss 2.7793e+00 (2.4770e+00)	Acc@1  37.50 ( 46.07)	Acc@5  68.75 ( 70.66)
+cur lr:  0.08217004863144158
+Epoch: [33][ 4000/10010]	Time  0.197 ( 0.779)	Data  0.000 ( 0.564)	Loss 2.5205e+00 (2.4812e+00)	Acc@1  48.44 ( 46.00)	Acc@5  72.66 ( 70.57)
+cur lr:  0.08206982241624289
+Epoch: [33][ 5000/10010]	Time  0.235 ( 0.794)	Data  0.000 ( 0.578)	Loss 2.7817e+00 (2.4839e+00)	Acc@1  39.06 ( 45.97)	Acc@5  69.53 ( 70.52)
+cur lr:  0.08196937679829866
+Epoch: [33][ 6000/10010]	Time  0.223 ( 0.790)	Data  0.000 ( 0.576)	Loss 2.2337e+00 (2.4889e+00)	Acc@1  54.69 ( 45.89)	Acc@5  71.88 ( 70.46)
+cur lr:  0.08186871246479838
+Epoch: [33][ 7000/10010]	Time  0.222 ( 0.785)	Data  0.000 ( 0.572)	Loss 2.4257e+00 (2.4915e+00)	Acc@1  52.34 ( 45.87)	Acc@5  68.75 ( 70.43)
+cur lr:  0.08176783010442781
+Epoch: [33][ 8000/10010]	Time  0.161 ( 0.784)	Data  0.000 ( 0.572)	Loss 2.2535e+00 (2.4924e+00)	Acc@1  50.00 ( 45.84)	Acc@5  75.78 ( 70.41)
+cur lr:  0.08166673040736439
+Epoch: [33][ 9000/10010]	Time  0.221 ( 0.784)	Data  0.001 ( 0.574)	Loss 2.4888e+00 (2.4935e+00)	Acc@1  44.53 ( 45.84)	Acc@5  70.31 ( 70.39)
+cur lr:  0.0815654140652724
+Epoch: [33][10000/10010]	Time  0.235 ( 0.790)	Data  0.000 ( 0.579)	Loss 2.4325e+00 (2.4945e+00)	Acc@1  49.22 ( 45.84)	Acc@5  68.75 ( 70.38)
+cur lr:  0.08146388177129829
+Test: [  0/391]	Time  6.207 ( 6.207)	Loss 1.3550e+00 (1.3550e+00)	Acc@1  69.53 ( 69.53)	Acc@5  84.38 ( 84.38)
+ * Acc@1 48.096 Acc@5 73.774
+Epoch: [34][    0/10010]	Time  8.008 ( 8.008)	Data  7.857 ( 7.857)	Loss 2.5946e+00 (2.5946e+00)	Acc@1  43.75 ( 43.75)	Acc@5  71.09 ( 71.09)
+cur lr:  0.08146286536015057
+Epoch: [34][ 1000/10010]	Time  3.500 ( 0.806)	Data  3.372 ( 0.592)	Loss 2.0903e+00 (2.4565e+00)	Acc@1  50.00 ( 46.48)	Acc@5  77.34 ( 70.88)
+cur lr:  0.08136111565985849
+Epoch: [34][ 2000/10010]	Time  1.811 ( 0.802)	Data  1.689 ( 0.594)	Loss 2.3440e+00 (2.4655e+00)	Acc@1  49.22 ( 46.23)	Acc@5  72.66 ( 70.73)
+cur lr:  0.08125915140537304
+Epoch: [34][ 3000/10010]	Time  0.219 ( 0.795)	Data  0.075 ( 0.585)	Loss 2.6888e+00 (2.4699e+00)	Acc@1  40.62 ( 46.13)	Acc@5  67.19 ( 70.70)
+cur lr:  0.08115697329427336
+Epoch: [34][ 4000/10010]	Time  4.851 ( 0.793)	Data  4.718 ( 0.583)	Loss 2.2800e+00 (2.4731e+00)	Acc@1  49.22 ( 46.16)	Acc@5  68.75 ( 70.65)
+cur lr:  0.0810545820256016
+Epoch: [34][ 5000/10010]	Time  0.533 ( 0.785)	Data  0.421 ( 0.573)	Loss 2.6788e+00 (2.4759e+00)	Acc@1  40.62 ( 46.11)	Acc@5  64.06 ( 70.60)
+cur lr:  0.08095197829985822
+Epoch: [34][ 6000/10010]	Time  0.305 ( 0.785)	Data  0.000 ( 0.572)	Loss 2.4030e+00 (2.4772e+00)	Acc@1  46.88 ( 46.08)	Acc@5  71.09 ( 70.61)
+cur lr:  0.08084916281899719
+Epoch: [34][ 7000/10010]	Time  0.272 ( 0.783)	Data  0.000 ( 0.568)	Loss 2.4689e+00 (2.4793e+00)	Acc@1  49.22 ( 46.06)	Acc@5  71.09 ( 70.59)
+cur lr:  0.08074613628642119
+Epoch: [34][ 8000/10010]	Time  0.232 ( 0.780)	Data  0.000 ( 0.565)	Loss 2.4090e+00 (2.4823e+00)	Acc@1  46.88 ( 46.01)	Acc@5  67.97 ( 70.53)
+cur lr:  0.08064289940697676
+Epoch: [34][ 9000/10010]	Time  0.234 ( 0.778)	Data  0.000 ( 0.563)	Loss 2.3381e+00 (2.4852e+00)	Acc@1  49.22 ( 45.99)	Acc@5  70.31 ( 70.48)
+cur lr:  0.08053945288694955
+Epoch: [34][10000/10010]	Time  0.239 ( 0.778)	Data  0.000 ( 0.562)	Loss 2.1704e+00 (2.4860e+00)	Acc@1  53.12 ( 45.97)	Acc@5  80.47 ( 70.48)
+cur lr:  0.08043579743405943
+Test: [  0/391]	Time  6.493 ( 6.493)	Loss 1.6404e+00 (1.6404e+00)	Acc@1  65.62 ( 65.62)	Acc@5  88.28 ( 88.28)
+ * Acc@1 50.020 Acc@5 75.478
+Epoch: [35][    0/10010]	Time  7.357 ( 7.357)	Data  7.226 ( 7.226)	Loss 2.3698e+00 (2.3698e+00)	Acc@1  51.56 ( 51.56)	Acc@5  75.78 ( 75.78)
+cur lr:  0.08043475982681778
+Epoch: [35][ 1000/10010]	Time  0.268 ( 0.774)	Data  0.001 ( 0.563)	Loss 2.4104e+00 (2.4526e+00)	Acc@1  46.88 ( 46.67)	Acc@5  73.44 ( 71.00)
+cur lr:  0.0803308940715629
+Epoch: [35][ 2000/10010]	Time  0.259 ( 0.785)	Data  0.000 ( 0.572)	Loss 2.5383e+00 (2.4550e+00)	Acc@1  44.53 ( 46.51)	Acc@5  70.31 ( 70.90)
+cur lr:  0.08022682081028108
+Epoch: [35][ 3000/10010]	Time  0.278 ( 0.782)	Data  0.000 ( 0.568)	Loss 2.4282e+00 (2.4597e+00)	Acc@1  46.09 ( 46.40)	Acc@5  68.75 ( 70.86)
+cur lr:  0.08012254075498002
+Epoch: [35][ 4000/10010]	Time  0.234 ( 0.781)	Data  0.000 ( 0.568)	Loss 2.1942e+00 (2.4632e+00)	Acc@1  50.78 ( 46.37)	Acc@5  77.34 ( 70.83)
+cur lr:  0.0800180546190821
+Epoch: [35][ 5000/10010]	Time  2.291 ( 0.775)	Data  2.173 ( 0.564)	Loss 2.5204e+00 (2.4674e+00)	Acc@1  43.75 ( 46.28)	Acc@5  70.31 ( 70.75)
+cur lr:  0.07991336311741964
+Epoch: [35][ 6000/10010]	Time  4.399 ( 0.772)	Data  4.286 ( 0.562)	Loss 2.8955e+00 (2.4706e+00)	Acc@1  41.41 ( 46.22)	Acc@5  58.59 ( 70.72)
+cur lr:  0.07980846696622995
+Epoch: [35][ 7000/10010]	Time  0.219 ( 0.769)	Data  0.000 ( 0.561)	Loss 2.6137e+00 (2.4727e+00)	Acc@1  48.44 ( 46.18)	Acc@5  71.88 ( 70.68)
+cur lr:  0.0797033668831504
+Epoch: [35][ 8000/10010]	Time  0.272 ( 0.767)	Data  0.001 ( 0.559)	Loss 2.5626e+00 (2.4756e+00)	Acc@1  41.41 ( 46.15)	Acc@5  68.75 ( 70.63)
+cur lr:  0.07959806358721357
+Epoch: [35][ 9000/10010]	Time  0.247 ( 0.767)	Data  0.000 ( 0.558)	Loss 2.5888e+00 (2.4765e+00)	Acc@1  46.09 ( 46.13)	Acc@5  69.53 ( 70.62)
+cur lr:  0.07949255779884229
+Epoch: [35][10000/10010]	Time  0.233 ( 0.765)	Data  0.000 ( 0.556)	Loss 2.7476e+00 (2.4777e+00)	Acc@1  41.41 ( 46.12)	Acc@5  67.97 ( 70.60)
+cur lr:  0.07938685023984471
+Test: [  0/391]	Time  5.901 ( 5.901)	Loss 1.9855e+00 (1.9855e+00)	Acc@1  57.03 ( 57.03)	Acc@5  78.91 ( 78.91)
+ * Acc@1 47.284 Acc@5 72.810
+Epoch: [36][    0/10010]	Time  6.938 ( 6.938)	Data  6.779 ( 6.779)	Loss 2.4211e+00 (2.4211e+00)	Acc@1  50.78 ( 50.78)	Acc@5  70.31 ( 70.31)
+cur lr:  0.07938579214775882
+Epoch: [36][ 1000/10010]	Time  3.544 ( 0.779)	Data  3.425 ( 0.573)	Loss 2.5945e+00 (2.4343e+00)	Acc@1  42.97 ( 46.86)	Acc@5  70.31 ( 71.24)
+cur lr:  0.0792798815345059
+Epoch: [36][ 2000/10010]	Time  0.235 ( 0.772)	Data  0.000 ( 0.563)	Loss 2.4702e+00 (2.4399e+00)	Acc@1  40.62 ( 46.71)	Acc@5  72.66 ( 71.21)
+cur lr:  0.0791737706056318
+Epoch: [36][ 3000/10010]	Time  0.210 ( 0.778)	Data  0.001 ( 0.563)	Loss 2.3698e+00 (2.4501e+00)	Acc@1  46.88 ( 46.56)	Acc@5  69.53 ( 71.03)
+cur lr:  0.07906746008708476
+Epoch: [36][ 4000/10010]	Time  2.684 ( 0.780)	Data  2.548 ( 0.565)	Loss 2.3938e+00 (2.4562e+00)	Acc@1  50.78 ( 46.49)	Acc@5  72.66 ( 70.95)
+cur lr:  0.07896095070617837
+Epoch: [36][ 5000/10010]	Time  0.232 ( 0.779)	Data  0.000 ( 0.566)	Loss 2.3185e+00 (2.4612e+00)	Acc@1  49.22 ( 46.43)	Acc@5  70.31 ( 70.87)
+cur lr:  0.0788542431915868
+Epoch: [36][ 6000/10010]	Time  0.272 ( 0.783)	Data  0.000 ( 0.572)	Loss 2.4550e+00 (2.4629e+00)	Acc@1  42.19 ( 46.41)	Acc@5  73.44 ( 70.83)
+cur lr:  0.07874733827333974
+Epoch: [36][ 7000/10010]	Time  0.265 ( 0.781)	Data  0.001 ( 0.571)	Loss 2.6799e+00 (2.4647e+00)	Acc@1  37.50 ( 46.37)	Acc@5  66.41 ( 70.80)
+cur lr:  0.07864023668281733
+Epoch: [36][ 8000/10010]	Time  0.224 ( 0.783)	Data  0.001 ( 0.572)	Loss 3.1501e+00 (2.4656e+00)	Acc@1  39.84 ( 46.33)	Acc@5  57.03 ( 70.78)
+cur lr:  0.07853293915274528
+Epoch: [36][ 9000/10010]	Time  0.238 ( 0.783)	Data  0.001 ( 0.570)	Loss 2.8677e+00 (2.4680e+00)	Acc@1  40.62 ( 46.28)	Acc@5  65.62 ( 70.76)
+cur lr:  0.07842544641718982
+Epoch: [36][10000/10010]	Time  0.232 ( 0.781)	Data  0.000 ( 0.568)	Loss 2.2032e+00 (2.4694e+00)	Acc@1  51.56 ( 46.27)	Acc@5  75.78 ( 70.74)
+cur lr:  0.0783177592115526
+Test: [  0/391]	Time  5.378 ( 5.378)	Loss 1.2392e+00 (1.2392e+00)	Acc@1  75.00 ( 75.00)	Acc@5  89.06 ( 89.06)
+ * Acc@1 48.504 Acc@5 74.294
+Epoch: [37][    0/10010]	Time  6.482 ( 6.482)	Data  6.277 ( 6.277)	Loss 2.1902e+00 (2.1902e+00)	Acc@1  49.22 ( 49.22)	Acc@5  74.22 ( 74.22)
+cur lr:  0.07831668135991394
+Epoch: [37][ 1000/10010]	Time  0.779 ( 0.777)	Data  0.666 ( 0.574)	Loss 2.2344e+00 (2.4239e+00)	Acc@1  48.44 ( 46.96)	Acc@5  73.44 ( 71.39)
+cur lr:  0.0782087984873186
+Epoch: [37][ 2000/10010]	Time  1.107 ( 0.749)	Data  0.974 ( 0.552)	Loss 2.3670e+00 (2.4328e+00)	Acc@1  46.09 ( 46.90)	Acc@5  69.53 ( 71.31)
+cur lr:  0.0781007226268184
+Epoch: [37][ 3000/10010]	Time  0.238 ( 0.793)	Data  0.000 ( 0.597)	Loss 2.3076e+00 (2.4402e+00)	Acc@1  49.22 ( 46.82)	Acc@5  75.78 ( 71.22)
+cur lr:  0.07799245451780445
+Epoch: [37][ 4000/10010]	Time  0.234 ( 0.801)	Data  0.000 ( 0.604)	Loss 2.1704e+00 (2.4461e+00)	Acc@1  50.00 ( 46.68)	Acc@5  75.00 ( 71.11)
+cur lr:  0.0778839949009831
+Epoch: [37][ 5000/10010]	Time  0.285 ( 0.794)	Data  0.000 ( 0.597)	Loss 2.7313e+00 (2.4492e+00)	Acc@1  42.19 ( 46.64)	Acc@5  68.75 ( 71.08)
+cur lr:  0.07777534451837083
+Epoch: [37][ 6000/10010]	Time  0.295 ( 0.792)	Data  0.000 ( 0.592)	Loss 2.3667e+00 (2.4540e+00)	Acc@1  45.31 ( 46.56)	Acc@5  75.00 ( 71.01)
+cur lr:  0.07766650411328924
+Epoch: [37][ 7000/10010]	Time  0.235 ( 0.807)	Data  0.000 ( 0.605)	Loss 2.5098e+00 (2.4567e+00)	Acc@1  46.88 ( 46.50)	Acc@5  72.66 ( 70.97)
+cur lr:  0.07755747443036001
+Epoch: [37][ 8000/10010]	Time  0.267 ( 0.804)	Data  0.000 ( 0.599)	Loss 2.4030e+00 (2.4585e+00)	Acc@1  50.00 ( 46.48)	Acc@5  73.44 ( 70.94)
+cur lr:  0.07744825621549967
+Epoch: [37][ 9000/10010]	Time  0.294 ( 0.806)	Data  0.000 ( 0.601)	Loss 2.2658e+00 (2.4604e+00)	Acc@1  48.44 ( 46.46)	Acc@5  74.22 ( 70.89)
+cur lr:  0.07733885021591463
+Epoch: [37][10000/10010]	Time  1.815 ( 0.807)	Data  1.700 ( 0.602)	Loss 2.4566e+00 (2.4620e+00)	Acc@1  43.75 ( 46.43)	Acc@5  68.75 ( 70.88)
+cur lr:  0.07722925718009598
+Test: [  0/391]	Time  5.795 ( 5.795)	Loss 1.1561e+00 (1.1561e+00)	Acc@1  72.66 ( 72.66)	Acc@5  90.62 ( 90.62)
+ * Acc@1 48.534 Acc@5 73.962
+Epoch: [38][    0/10010]	Time  7.350 ( 7.350)	Data  7.193 ( 7.193)	Loss 2.3991e+00 (2.3991e+00)	Acc@1  47.66 ( 47.66)	Acc@5  70.31 ( 70.31)
+cur lr:  0.0772281603077406
+Epoch: [38][ 1000/10010]	Time  0.237 ( 0.857)	Data  0.000 ( 0.655)	Loss 2.4012e+00 (2.4175e+00)	Acc@1  46.88 ( 47.20)	Acc@5  71.88 ( 71.44)
+cur lr:  0.07711837912638507
+Epoch: [38][ 2000/10010]	Time  0.171 ( 0.821)	Data  0.000 ( 0.609)	Loss 2.3509e+00 (2.4308e+00)	Acc@1  51.56 ( 46.90)	Acc@5  70.31 ( 71.32)
+cur lr:  0.07700841241712864
+Epoch: [38][ 3000/10010]	Time  0.211 ( 0.800)	Data  0.000 ( 0.590)	Loss 2.5357e+00 (2.4355e+00)	Acc@1  41.41 ( 46.82)	Acc@5  71.09 ( 71.24)
+cur lr:  0.07689826093229846
+Epoch: [38][ 4000/10010]	Time  0.238 ( 0.785)	Data  0.000 ( 0.575)	Loss 2.5385e+00 (2.4380e+00)	Acc@1  44.53 ( 46.78)	Acc@5  67.19 ( 71.22)
+cur lr:  0.0767879254254858
+Epoch: [38][ 5000/10010]	Time  0.267 ( 0.775)	Data  0.000 ( 0.562)	Loss 2.3744e+00 (2.4413e+00)	Acc@1  42.19 ( 46.75)	Acc@5  75.78 ( 71.16)
+cur lr:  0.07667740665154092
+Epoch: [38][ 6000/10010]	Time  0.255 ( 0.770)	Data  0.000 ( 0.555)	Loss 2.0783e+00 (2.4437e+00)	Acc@1  51.56 ( 46.71)	Acc@5  77.34 ( 71.15)
+cur lr:  0.07656670536656784
+Epoch: [38][ 7000/10010]	Time  0.222 ( 0.767)	Data  0.000 ( 0.552)	Loss 2.5307e+00 (2.4453e+00)	Acc@1  43.75 ( 46.67)	Acc@5  69.53 ( 71.12)
+cur lr:  0.07645582232791925
+Epoch: [38][ 8000/10010]	Time  3.830 ( 0.764)	Data  3.668 ( 0.551)	Loss 2.4210e+00 (2.4470e+00)	Acc@1  47.66 ( 46.66)	Acc@5  66.41 ( 71.09)
+cur lr:  0.07634475829419127
+Epoch: [38][ 9000/10010]	Time  0.250 ( 0.760)	Data  0.000 ( 0.548)	Loss 2.3512e+00 (2.4498e+00)	Acc@1  43.75 ( 46.60)	Acc@5  75.00 ( 71.06)
+cur lr:  0.07623351402521829
+Epoch: [38][10000/10010]	Time  0.991 ( 0.757)	Data  0.881 ( 0.546)	Loss 2.2562e+00 (2.4510e+00)	Acc@1  53.12 ( 46.59)	Acc@5  75.00 ( 71.03)
+cur lr:  0.07612209028206776
+Test: [  0/391]	Time  5.689 ( 5.689)	Loss 1.3422e+00 (1.3422e+00)	Acc@1  70.31 ( 70.31)	Acc@5  84.38 ( 84.38)
+ * Acc@1 49.080 Acc@5 74.396
+Epoch: [39][    0/10010]	Time  9.620 ( 9.620)	Data  9.508 ( 9.508)	Loss 2.3749e+00 (2.3749e+00)	Acc@1  47.66 ( 47.66)	Acc@5  70.31 ( 70.31)
+cur lr:  0.07612097514086986
+Epoch: [39][ 1000/10010]	Time  5.388 ( 0.743)	Data  5.274 ( 0.531)	Loss 2.1913e+00 (2.4089e+00)	Acc@1  52.34 ( 47.28)	Acc@5  75.00 ( 71.64)
+cur lr:  0.07600937090257201
+Epoch: [39][ 2000/10010]	Time  0.258 ( 0.737)	Data  0.000 ( 0.523)	Loss 2.3369e+00 (2.4149e+00)	Acc@1  49.22 ( 47.25)	Acc@5  75.78 ( 71.59)
+cur lr:  0.07589758872355121
+Epoch: [39][ 3000/10010]	Time  0.278 ( 0.735)	Data  0.000 ( 0.522)	Loss 2.5535e+00 (2.4214e+00)	Acc@1  40.62 ( 47.10)	Acc@5  71.09 ( 71.46)
+cur lr:  0.07578562936855496
+Epoch: [39][ 4000/10010]	Time  0.229 ( 0.736)	Data  0.000 ( 0.526)	Loss 2.7774e+00 (2.4273e+00)	Acc@1  35.16 ( 47.00)	Acc@5  63.28 ( 71.37)
+cur lr:  0.07567349360354292
+Epoch: [39][ 5000/10010]	Time  0.258 ( 0.739)	Data  0.000 ( 0.527)	Loss 2.2954e+00 (2.4289e+00)	Acc@1  52.34 ( 46.99)	Acc@5  73.44 ( 71.36)
+cur lr:  0.07556118219568164
+Epoch: [39][ 6000/10010]	Time  0.251 ( 0.739)	Data  0.000 ( 0.529)	Loss 2.2624e+00 (2.4304e+00)	Acc@1  53.12 ( 46.95)	Acc@5  72.66 ( 71.34)
+cur lr:  0.0754486959133393
+Epoch: [39][ 7000/10010]	Time  1.589 ( 0.736)	Data  1.449 ( 0.528)	Loss 2.3973e+00 (2.4339e+00)	Acc@1  45.31 ( 46.92)	Acc@5  71.88 ( 71.26)
+cur lr:  0.07533603552608047
+Epoch: [39][ 8000/10010]	Time  0.243 ( 0.733)	Data  0.000 ( 0.526)	Loss 2.2933e+00 (2.4377e+00)	Acc@1  51.56 ( 46.87)	Acc@5  71.88 ( 71.20)
+cur lr:  0.07522320180466083
+Epoch: [39][ 9000/10010]	Time  0.770 ( 0.733)	Data  0.597 ( 0.527)	Loss 2.5653e+00 (2.4414e+00)	Acc@1  41.41 ( 46.79)	Acc@5  71.88 ( 71.14)
+cur lr:  0.07511019552102194
+Epoch: [39][10000/10010]	Time  0.241 ( 0.734)	Data  0.000 ( 0.529)	Loss 2.4932e+00 (2.4426e+00)	Acc@1  44.53 ( 46.79)	Acc@5  67.97 ( 71.14)
+cur lr:  0.07499701744828591
+Test: [  0/391]	Time  5.691 ( 5.691)	Loss 1.2660e+00 (1.2660e+00)	Acc@1  72.66 ( 72.66)	Acc@5  89.84 ( 89.84)
+ * Acc@1 50.248 Acc@5 75.544
+Epoch: [40][    0/10010]	Time  7.064 ( 7.064)	Data  6.866 ( 6.866)	Loss 2.0900e+00 (2.0900e+00)	Acc@1  55.47 ( 55.47)	Acc@5  75.00 ( 75.00)
+cur lr:  0.07499588480264245
+Epoch: [40][ 1000/10010]	Time  0.266 ( 0.724)	Data  0.001 ( 0.526)	Loss 2.2121e+00 (2.4024e+00)	Acc@1  58.59 ( 47.39)	Acc@5  71.88 ( 71.69)
+cur lr:  0.07488253400887285
+Epoch: [40][ 2000/10010]	Time  0.254 ( 0.726)	Data  0.001 ( 0.524)	Loss 2.1873e+00 (2.4107e+00)	Acc@1  50.00 ( 47.31)	Acc@5  75.00 ( 71.56)
+cur lr:  0.07476901298353145
+Epoch: [40][ 3000/10010]	Time  0.270 ( 0.726)	Data  0.000 ( 0.517)	Loss 2.5294e+00 (2.4161e+00)	Acc@1  44.53 ( 47.14)	Acc@5  71.09 ( 71.53)
+cur lr:  0.0746553225032619
+Epoch: [40][ 4000/10010]	Time  0.258 ( 0.728)	Data  0.000 ( 0.517)	Loss 2.2062e+00 (2.4218e+00)	Acc@1  48.44 ( 47.12)	Acc@5  76.56 ( 71.45)
+cur lr:  0.0745414633458672
+Epoch: [40][ 5000/10010]	Time  0.257 ( 0.727)	Data  0.000 ( 0.516)	Loss 2.2852e+00 (2.4260e+00)	Acc@1  51.56 ( 47.09)	Acc@5  73.44 ( 71.42)
+cur lr:  0.07442743629030434
+Epoch: [40][ 6000/10010]	Time  0.222 ( 0.726)	Data  0.000 ( 0.516)	Loss 2.3159e+00 (2.4295e+00)	Acc@1  49.22 ( 47.03)	Acc@5  74.22 ( 71.36)
+cur lr:  0.0743132421166789
+Epoch: [40][ 7000/10010]	Time  3.198 ( 0.725)	Data  3.063 ( 0.518)	Loss 2.3621e+00 (2.4303e+00)	Acc@1  49.22 ( 47.00)	Acc@5  72.66 ( 71.35)
+cur lr:  0.07419888160623987
+Epoch: [40][ 8000/10010]	Time  2.289 ( 0.726)	Data  2.178 ( 0.518)	Loss 2.2510e+00 (2.4333e+00)	Acc@1  43.75 ( 46.97)	Acc@5  75.78 ( 71.30)
+cur lr:  0.0740843555413742
+Epoch: [40][ 9000/10010]	Time  2.921 ( 0.728)	Data  2.738 ( 0.519)	Loss 2.5786e+00 (2.4357e+00)	Acc@1  47.66 ( 46.91)	Acc@5  66.41 ( 71.26)
+cur lr:  0.07396966470560142
+Epoch: [40][10000/10010]	Time  3.932 ( 0.729)	Data  3.821 ( 0.520)	Loss 2.5254e+00 (2.4369e+00)	Acc@1  41.41 ( 46.89)	Acc@5  69.53 ( 71.24)
+cur lr:  0.07385480988356834
+Test: [  0/391]	Time  5.804 ( 5.804)	Loss 1.6833e+00 (1.6833e+00)	Acc@1  63.28 ( 63.28)	Acc@5  82.03 ( 82.03)
+ * Acc@1 50.908 Acc@5 75.960
+Epoch: [41][    0/10010]	Time  7.291 ( 7.291)	Data  7.111 ( 7.111)	Loss 2.1025e+00 (2.1025e+00)	Acc@1  53.91 ( 53.91)	Acc@5  81.25 ( 81.25)
+cur lr:  0.07385366050987512
+Epoch: [41][ 1000/10010]	Time  0.224 ( 0.759)	Data  0.001 ( 0.550)	Loss 2.5257e+00 (2.3933e+00)	Acc@1  48.44 ( 47.56)	Acc@5  70.31 ( 72.02)
+cur lr:  0.07373864085931747
+Epoch: [41][ 2000/10010]	Time  0.211 ( 0.745)	Data  0.001 ( 0.536)	Loss 2.2224e+00 (2.4037e+00)	Acc@1  49.22 ( 47.35)	Acc@5  73.44 ( 71.77)
+cur lr:  0.073623458803028
+Epoch: [41][ 3000/10010]	Time  0.672 ( 0.742)	Data  0.551 ( 0.534)	Loss 2.4095e+00 (2.4077e+00)	Acc@1  48.44 ( 47.29)	Acc@5  71.88 ( 71.72)
+cur lr:  0.0735081151290141
+Epoch: [41][ 4000/10010]	Time  0.232 ( 0.753)	Data  0.000 ( 0.543)	Loss 2.5828e+00 (2.4122e+00)	Acc@1  42.97 ( 47.23)	Acc@5  68.75 ( 71.65)
+cur lr:  0.073392610626389
+Epoch: [41][ 5000/10010]	Time  0.229 ( 0.759)	Data  0.000 ( 0.551)	Loss 2.4828e+00 (2.4158e+00)	Acc@1  46.09 ( 47.19)	Acc@5  69.53 ( 71.59)
+cur lr:  0.0732769460853661
+Epoch: [41][ 6000/10010]	Time  0.222 ( 0.756)	Data  0.000 ( 0.549)	Loss 2.5133e+00 (2.4176e+00)	Acc@1  42.19 ( 47.18)	Acc@5  69.53 ( 71.57)
+cur lr:  0.07316112229725376
+Epoch: [41][ 7000/10010]	Time  0.228 ( 0.751)	Data  0.000 ( 0.545)	Loss 2.6568e+00 (2.4184e+00)	Acc@1  41.41 ( 47.16)	Acc@5  70.31 ( 71.54)
+cur lr:  0.0730451400544498
+Epoch: [41][ 8000/10010]	Time  0.222 ( 0.748)	Data  0.000 ( 0.542)	Loss 2.5933e+00 (2.4208e+00)	Acc@1  45.31 ( 47.11)	Acc@5  67.97 ( 71.51)
+cur lr:  0.07292900015043606
+Epoch: [41][ 9000/10010]	Time  0.299 ( 0.746)	Data  0.175 ( 0.539)	Loss 2.4768e+00 (2.4234e+00)	Acc@1  51.56 ( 47.08)	Acc@5  71.88 ( 71.47)
+cur lr:  0.07281270337977304
+Epoch: [41][10000/10010]	Time  0.246 ( 0.746)	Data  0.000 ( 0.538)	Loss 2.4182e+00 (2.4252e+00)	Acc@1  50.00 ( 47.05)	Acc@5  73.44 ( 71.44)
+cur lr:  0.0726962505380944
+Test: [  0/391]	Time  6.299 ( 6.299)	Loss 1.4914e+00 (1.4914e+00)	Acc@1  64.84 ( 64.84)	Acc@5  84.38 ( 84.38)
+ * Acc@1 50.448 Acc@5 75.708
+Epoch: [42][    0/10010]	Time  7.335 ( 7.335)	Data  7.208 ( 7.208)	Loss 2.3890e+00 (2.3890e+00)	Acc@1  42.97 ( 42.97)	Acc@5  71.88 ( 71.88)
+cur lr:  0.07269508522421374
+Epoch: [42][ 1000/10010]	Time  0.308 ( 0.755)	Data  0.000 ( 0.536)	Loss 2.0259e+00 (2.3842e+00)	Acc@1  55.47 ( 47.75)	Acc@5  76.56 ( 71.97)
+cur lr:  0.07257847555950474
+Epoch: [42][ 2000/10010]	Time  0.277 ( 0.761)	Data  0.000 ( 0.539)	Loss 2.5045e+00 (2.3960e+00)	Acc@1  45.31 ( 47.60)	Acc@5  68.75 ( 71.86)
+cur lr:  0.07246171142622826
+Epoch: [42][ 3000/10010]	Time  0.211 ( 0.762)	Data  0.000 ( 0.544)	Loss 2.4864e+00 (2.4002e+00)	Acc@1  46.88 ( 47.49)	Acc@5  70.31 ( 71.82)
+cur lr:  0.07234479362321543
+Epoch: [42][ 4000/10010]	Time  0.278 ( 0.760)	Data  0.000 ( 0.540)	Loss 2.2803e+00 (2.4030e+00)	Acc@1  46.88 ( 47.43)	Acc@5  75.78 ( 71.76)
+cur lr:  0.07222772295034861
+Epoch: [42][ 5000/10010]	Time  0.236 ( 0.759)	Data  0.000 ( 0.539)	Loss 2.3123e+00 (2.4067e+00)	Acc@1  53.12 ( 47.38)	Acc@5  75.00 ( 71.72)
+cur lr:  0.0721105002085561
+Epoch: [42][ 6000/10010]	Time  0.235 ( 0.757)	Data  0.000 ( 0.541)	Loss 2.2903e+00 (2.4111e+00)	Acc@1  50.78 ( 47.29)	Acc@5  75.78 ( 71.66)
+cur lr:  0.07199312619980651
+Epoch: [42][ 7000/10010]	Time  0.262 ( 0.758)	Data  0.000 ( 0.544)	Loss 2.4514e+00 (2.4127e+00)	Acc@1  46.88 ( 47.29)	Acc@5  72.66 ( 71.62)
+cur lr:  0.07187560172710333
+Epoch: [42][ 8000/10010]	Time  0.290 ( 0.757)	Data  0.000 ( 0.543)	Loss 2.3598e+00 (2.4139e+00)	Acc@1  47.66 ( 47.26)	Acc@5  71.09 ( 71.60)
+cur lr:  0.07175792759447949
+Epoch: [42][ 9000/10010]	Time  0.232 ( 0.753)	Data  0.000 ( 0.541)	Loss 2.2751e+00 (2.4157e+00)	Acc@1  49.22 ( 47.23)	Acc@5  74.22 ( 71.57)
+cur lr:  0.07164010460699173
+Epoch: [42][10000/10010]	Time  0.234 ( 0.754)	Data  0.000 ( 0.542)	Loss 2.0387e+00 (2.4179e+00)	Acc@1  46.88 ( 47.19)	Acc@5  75.00 ( 71.55)
+cur lr:  0.07152213357071521
+Test: [  0/391]	Time  6.276 ( 6.276)	Loss 9.2797e-01 (9.2797e-01)	Acc@1  82.81 ( 82.81)	Acc@5  91.41 ( 91.41)
+ * Acc@1 49.908 Acc@5 75.506
+Epoch: [43][    0/10010]	Time  7.451 ( 7.451)	Data  7.226 ( 7.226)	Loss 2.1942e+00 (2.1942e+00)	Acc@1  48.44 ( 48.44)	Acc@5  76.56 ( 76.56)
+cur lr:  0.071520953115436
+Epoch: [43][ 1000/10010]	Time  1.552 ( 0.735)	Data  1.395 ( 0.527)	Loss 2.1965e+00 (2.3732e+00)	Acc@1  50.78 ( 47.78)	Acc@5  74.22 ( 72.26)
+cur lr:  0.07140283336912094
+Epoch: [43][ 2000/10010]	Time  0.237 ( 0.747)	Data  0.001 ( 0.537)	Loss 2.3881e+00 (2.3790e+00)	Acc@1  46.09 ( 47.77)	Acc@5  75.00 ( 72.21)
+cur lr:  0.0712845671972865
+Epoch: [43][ 3000/10010]	Time  0.213 ( 0.757)	Data  0.000 ( 0.543)	Loss 1.9924e+00 (2.3846e+00)	Acc@1  54.69 ( 47.73)	Acc@5  81.25 ( 72.12)
+cur lr:  0.07116615540903985
+Epoch: [43][ 4000/10010]	Time  0.226 ( 0.751)	Data  0.001 ( 0.538)	Loss 2.6192e+00 (2.3921e+00)	Acc@1  45.31 ( 47.65)	Acc@5  66.41 ( 71.93)
+cur lr:  0.07104759881448434
+Epoch: [43][ 5000/10010]	Time  0.292 ( 0.752)	Data  0.000 ( 0.537)	Loss 2.1786e+00 (2.3953e+00)	Acc@1  50.78 ( 47.60)	Acc@5  74.22 ( 71.87)
+cur lr:  0.07092889822471408
+Epoch: [43][ 6000/10010]	Time  0.273 ( 0.753)	Data  0.161 ( 0.540)	Loss 2.2764e+00 (2.4006e+00)	Acc@1  53.12 ( 47.53)	Acc@5  74.22 ( 71.79)
+cur lr:  0.0708100544518082
+Epoch: [43][ 7000/10010]	Time  0.694 ( 0.758)	Data  0.547 ( 0.549)	Loss 2.1566e+00 (2.4047e+00)	Acc@1  51.56 ( 47.46)	Acc@5  75.00 ( 71.74)
+cur lr:  0.0706910683088255
+Epoch: [43][ 8000/10010]	Time  0.258 ( 0.756)	Data  0.000 ( 0.547)	Loss 2.3214e+00 (2.4062e+00)	Acc@1  48.44 ( 47.44)	Acc@5  71.09 ( 71.72)
+cur lr:  0.07057194060979875
+Epoch: [43][ 9000/10010]	Time  0.280 ( 0.756)	Data  0.000 ( 0.546)	Loss 2.4892e+00 (2.4069e+00)	Acc@1  45.31 ( 47.42)	Acc@5  69.53 ( 71.72)
+cur lr:  0.07045267216972913
+Epoch: [43][10000/10010]	Time  0.237 ( 0.757)	Data  0.000 ( 0.547)	Loss 2.3490e+00 (2.4092e+00)	Acc@1  50.78 ( 47.40)	Acc@5  72.66 ( 71.68)
+cur lr:  0.07033326380458076
+Test: [  0/391]	Time  6.117 ( 6.117)	Loss 1.3880e+00 (1.3880e+00)	Acc@1  67.97 ( 67.97)	Acc@5  85.94 ( 85.94)
+ * Acc@1 51.028 Acc@5 76.118
+Epoch: [44][    0/10010]	Time  7.117 ( 7.117)	Data  6.925 ( 6.925)	Loss 2.2602e+00 (2.2602e+00)	Acc@1  49.22 ( 49.22)	Acc@5  71.09 ( 71.09)
+cur lr:  0.07033206901707088
+Epoch: [44][ 1000/10010]	Time  0.248 ( 0.793)	Data  0.000 ( 0.581)	Loss 2.2181e+00 (2.3651e+00)	Acc@1  50.78 ( 48.12)	Acc@5  75.00 ( 72.29)
+cur lr:  0.07021252015681219
+Epoch: [44][ 2000/10010]	Time  0.237 ( 0.792)	Data  0.000 ( 0.584)	Loss 2.2432e+00 (2.3712e+00)	Acc@1  49.22 ( 47.99)	Acc@5  73.44 ( 72.19)
+cur lr:  0.0700928330144527
+Epoch: [44][ 3000/10010]	Time  4.901 ( 0.814)	Data  4.791 ( 0.603)	Loss 2.2275e+00 (2.3781e+00)	Acc@1  53.91 ( 47.88)	Acc@5  71.88 ( 72.14)
+cur lr:  0.06997300840882098
+Epoch: [44][ 4000/10010]	Time  0.240 ( 0.821)	Data  0.000 ( 0.612)	Loss 2.5653e+00 (2.3828e+00)	Acc@1  43.75 ( 47.78)	Acc@5  74.22 ( 72.06)
+cur lr:  0.06985304715968609
+Epoch: [44][ 5000/10010]	Time  0.188 ( 0.824)	Data  0.001 ( 0.613)	Loss 2.4270e+00 (2.3882e+00)	Acc@1  50.00 ( 47.73)	Acc@5  69.53 ( 71.99)
+cur lr:  0.06973295008775186
+Epoch: [44][ 6000/10010]	Time  0.248 ( 0.829)	Data  0.000 ( 0.619)	Loss 2.4118e+00 (2.3894e+00)	Acc@1  49.22 ( 47.72)	Acc@5  68.75 ( 71.97)
+cur lr:  0.06961271801465142
+Epoch: [44][ 7000/10010]	Time  0.230 ( 0.849)	Data  0.000 ( 0.639)	Loss 2.4229e+00 (2.3929e+00)	Acc@1  45.31 ( 47.67)	Acc@5  73.44 ( 71.91)
+cur lr:  0.06949235176294144
+Epoch: [44][ 8000/10010]	Time  0.273 ( 0.850)	Data  0.000 ( 0.640)	Loss 2.6151e+00 (2.3951e+00)	Acc@1  43.75 ( 47.62)	Acc@5  67.19 ( 71.87)
+cur lr:  0.06937185215609658
+Epoch: [44][ 9000/10010]	Time  0.242 ( 0.849)	Data  0.000 ( 0.640)	Loss 2.5485e+00 (2.3970e+00)	Acc@1  52.34 ( 47.59)	Acc@5  70.31 ( 71.85)
+cur lr:  0.06925122001850385
+Epoch: [44][10000/10010]	Time  0.238 ( 0.852)	Data  0.000 ( 0.642)	Loss 2.2938e+00 (2.3982e+00)	Acc@1  45.31 ( 47.58)	Acc@5  71.88 ( 71.82)
+cur lr:  0.06913045617545693
+Test: [  0/391]	Time  5.280 ( 5.280)	Loss 1.6967e+00 (1.6967e+00)	Acc@1  60.16 ( 60.16)	Acc@5  84.38 ( 84.38)
+ * Acc@1 51.516 Acc@5 76.696
+Epoch: [45][    0/10010]	Time  8.271 ( 8.271)	Data  8.114 ( 8.114)	Loss 2.4938e+00 (2.4938e+00)	Acc@1  46.88 ( 46.88)	Acc@5  71.88 ( 71.88)
+cur lr:  0.0691292478747086
+Epoch: [45][ 1000/10010]	Time  0.224 ( 0.836)	Data  0.000 ( 0.631)	Loss 2.3675e+00 (2.3522e+00)	Acc@1  50.78 ( 48.35)	Acc@5  70.31 ( 72.51)
+cur lr:  0.06900835184778496
+Epoch: [45][ 2000/10010]	Time  0.227 ( 0.839)	Data  0.001 ( 0.631)	Loss 2.1361e+00 (2.3586e+00)	Acc@1  53.12 ( 48.23)	Acc@5  74.22 ( 72.41)
+cur lr:  0.06888732577696743
+Epoch: [45][ 3000/10010]	Time  0.237 ( 0.853)	Data  0.000 ( 0.643)	Loss 2.3968e+00 (2.3642e+00)	Acc@1  46.09 ( 48.13)	Acc@5  73.44 ( 72.36)
+cur lr:  0.06876617049024476
+Epoch: [45][ 4000/10010]	Time  0.252 ( 0.843)	Data  0.000 ( 0.633)	Loss 2.4222e+00 (2.3721e+00)	Acc@1  41.41 ( 48.02)	Acc@5  68.75 ( 72.23)
+cur lr:  0.06864488681648973
+Epoch: [45][ 5000/10010]	Time  0.211 ( 0.838)	Data  0.000 ( 0.627)	Loss 2.6606e+00 (2.3754e+00)	Acc@1  44.53 ( 47.96)	Acc@5  71.88 ( 72.20)
+cur lr:  0.06852347558545341
+Epoch: [45][ 6000/10010]	Time  0.414 ( 0.826)	Data  0.297 ( 0.615)	Loss 2.8100e+00 (2.3782e+00)	Acc@1  39.06 ( 47.91)	Acc@5  67.19 ( 72.18)
+cur lr:  0.06840193762775965
+Epoch: [45][ 7000/10010]	Time  3.952 ( 0.820)	Data  3.840 ( 0.609)	Loss 2.4048e+00 (2.3816e+00)	Acc@1  52.34 ( 47.87)	Acc@5  71.88 ( 72.12)
+cur lr:  0.06828027377489919
+Epoch: [45][ 8000/10010]	Time  2.199 ( 0.810)	Data  2.061 ( 0.598)	Loss 2.8934e+00 (2.3835e+00)	Acc@1  35.16 ( 47.81)	Acc@5  62.50 ( 72.08)
+cur lr:  0.06815848485922414
+Epoch: [45][ 9000/10010]	Time  2.661 ( 0.799)	Data  2.550 ( 0.588)	Loss 2.2646e+00 (2.3864e+00)	Acc@1  53.91 ( 47.77)	Acc@5  76.56 ( 72.04)
+cur lr:  0.06803657171394216
+Epoch: [45][10000/10010]	Time  0.221 ( 0.791)	Data  0.020 ( 0.581)	Loss 1.9813e+00 (2.3876e+00)	Acc@1  52.34 ( 47.77)	Acc@5  79.69 ( 72.02)
+cur lr:  0.06791453517311083
+Test: [  0/391]	Time  6.489 ( 6.489)	Loss 1.1330e+00 (1.1330e+00)	Acc@1  69.53 ( 69.53)	Acc@5  87.50 ( 87.50)
+ * Acc@1 50.044 Acc@5 75.690
+Epoch: [46][    0/10010]	Time  7.344 ( 7.344)	Data  7.174 ( 7.174)	Loss 2.2796e+00 (2.2796e+00)	Acc@1  53.12 ( 53.12)	Acc@5  72.66 ( 72.66)
+cur lr:  0.06791331418737918
+Epoch: [46][ 1000/10010]	Time  0.430 ( 0.758)	Data  0.310 ( 0.556)	Loss 2.4969e+00 (2.3549e+00)	Acc@1  46.09 ( 48.39)	Acc@5  70.31 ( 72.59)
+cur lr:  0.06779115386451294
+Epoch: [46][ 2000/10010]	Time  3.683 ( 0.743)	Data  3.538 ( 0.543)	Loss 2.5947e+00 (2.3611e+00)	Acc@1  43.75 ( 48.27)	Acc@5  68.75 ( 72.46)
+cur lr:  0.06766887182510103
+Epoch: [46][ 3000/10010]	Time  2.024 ( 0.736)	Data  1.914 ( 0.534)	Loss 2.2180e+00 (2.3678e+00)	Acc@1  50.00 ( 48.18)	Acc@5  72.66 ( 72.33)
+cur lr:  0.06754646890572484
+Epoch: [46][ 4000/10010]	Time  0.282 ( 0.736)	Data  0.014 ( 0.534)	Loss 2.5075e+00 (2.3710e+00)	Acc@1  45.31 ( 48.10)	Acc@5  70.31 ( 72.30)
+cur lr:  0.06742394594379267
+Epoch: [46][ 5000/10010]	Time  1.313 ( 0.740)	Data  1.194 ( 0.535)	Loss 2.1027e+00 (2.3729e+00)	Acc@1  50.00 ( 48.02)	Acc@5  77.34 ( 72.24)
+cur lr:  0.06730130377753411
+Epoch: [46][ 6000/10010]	Time  0.234 ( 0.739)	Data  0.000 ( 0.534)	Loss 2.3352e+00 (2.3751e+00)	Acc@1  44.53 ( 48.01)	Acc@5  68.75 ( 72.22)
+cur lr:  0.06717854324599432
+Epoch: [46][ 7000/10010]	Time  0.253 ( 0.737)	Data  0.000 ( 0.530)	Loss 2.4454e+00 (2.3777e+00)	Acc@1  46.88 ( 47.95)	Acc@5  68.75 ( 72.16)
+cur lr:  0.06705566518902815
+Epoch: [46][ 8000/10010]	Time  0.547 ( 0.740)	Data  0.428 ( 0.533)	Loss 2.7975e+00 (2.3793e+00)	Acc@1  39.06 ( 47.95)	Acc@5  62.50 ( 72.15)
+cur lr:  0.0669326704472946
+Epoch: [46][ 9000/10010]	Time  1.750 ( 0.741)	Data  1.639 ( 0.535)	Loss 2.2602e+00 (2.3808e+00)	Acc@1  48.44 ( 47.92)	Acc@5  72.66 ( 72.13)
+cur lr:  0.06680955986225086
+Epoch: [46][10000/10010]	Time  0.216 ( 0.741)	Data  0.000 ( 0.535)	Loss 2.6453e+00 (2.3808e+00)	Acc@1  43.75 ( 47.94)	Acc@5  67.19 ( 72.12)
+cur lr:  0.0666863342761467
+Test: [  0/391]	Time  5.880 ( 5.880)	Loss 8.3335e-01 (8.3335e-01)	Acc@1  82.81 ( 82.81)	Acc@5  92.19 ( 92.19)
+ * Acc@1 50.940 Acc@5 75.948
+Epoch: [47][    0/10010]	Time  7.272 ( 7.272)	Data  7.096 ( 7.096)	Loss 2.3743e+00 (2.3743e+00)	Acc@1  43.75 ( 43.75)	Acc@5  68.75 ( 68.75)
+cur lr:  0.06668510144238206
+Epoch: [47][ 1000/10010]	Time  0.236 ( 0.783)	Data  0.000 ( 0.582)	Loss 2.1625e+00 (2.3397e+00)	Acc@1  52.34 ( 48.51)	Acc@5  76.56 ( 72.84)
+cur lr:  0.06656176056093378
+Epoch: [47][ 2000/10010]	Time  1.050 ( 0.781)	Data  0.933 ( 0.579)	Loss 2.4381e+00 (2.3465e+00)	Acc@1  46.88 ( 48.51)	Acc@5  69.53 ( 72.74)
+cur lr:  0.06643830637372126
+Epoch: [47][ 3000/10010]	Time  0.313 ( 0.777)	Data  0.000 ( 0.575)	Loss 2.5294e+00 (2.3547e+00)	Acc@1  46.09 ( 48.37)	Acc@5  71.88 ( 72.61)
+cur lr:  0.06631473972534499
+Epoch: [47][ 4000/10010]	Time  0.219 ( 0.776)	Data  0.000 ( 0.570)	Loss 2.3823e+00 (2.3565e+00)	Acc@1  46.09 ( 48.30)	Acc@5  75.00 ( 72.54)
+cur lr:  0.06619106146117483
+Epoch: [47][ 5000/10010]	Time  0.292 ( 0.775)	Data  0.000 ( 0.572)	Loss 2.2661e+00 (2.3603e+00)	Acc@1  47.66 ( 48.23)	Acc@5  75.78 ( 72.47)
+cur lr:  0.06606727242734428
+Epoch: [47][ 6000/10010]	Time  0.235 ( 0.776)	Data  0.000 ( 0.572)	Loss 2.0629e+00 (2.3637e+00)	Acc@1  50.00 ( 48.19)	Acc@5  75.78 ( 72.41)
+cur lr:  0.06594337347074467
+Epoch: [47][ 7000/10010]	Time  0.222 ( 0.774)	Data  0.000 ( 0.567)	Loss 2.1729e+00 (2.3660e+00)	Acc@1  53.12 ( 48.16)	Acc@5  75.78 ( 72.38)
+cur lr:  0.0658193654390193
+Epoch: [47][ 8000/10010]	Time  0.231 ( 0.770)	Data  0.000 ( 0.562)	Loss 2.1748e+00 (2.3678e+00)	Acc@1  51.56 ( 48.15)	Acc@5  77.34 ( 72.35)
+cur lr:  0.06569524918055776
+Epoch: [47][ 9000/10010]	Time  0.227 ( 0.770)	Data  0.001 ( 0.560)	Loss 2.3068e+00 (2.3702e+00)	Acc@1  52.34 ( 48.10)	Acc@5  74.22 ( 72.30)
+cur lr:  0.06557102554449001
+Epoch: [47][10000/10010]	Time  0.232 ( 0.770)	Data  0.000 ( 0.560)	Loss 2.4274e+00 (2.3708e+00)	Acc@1  46.88 ( 48.10)	Acc@5  73.44 ( 72.29)
+cur lr:  0.0654466953806807
+Test: [  0/391]	Time  6.082 ( 6.082)	Loss 1.5593e+00 (1.5593e+00)	Acc@1  66.41 ( 66.41)	Acc@5  84.38 ( 84.38)
+ * Acc@1 49.406 Acc@5 75.008
+Epoch: [48][    0/10010]	Time  7.078 ( 7.078)	Data  6.963 ( 6.963)	Loss 2.8893e+00 (2.8893e+00)	Acc@1  41.41 ( 41.41)	Acc@5  62.50 ( 62.50)
+cur lr:  0.06544545154395488
+Epoch: [48][ 1000/10010]	Time  3.019 ( 0.745)	Data  2.898 ( 0.552)	Loss 1.9115e+00 (2.3248e+00)	Acc@1  54.69 ( 48.68)	Acc@5  79.69 ( 73.03)
+cur lr:  0.06532101465052384
+Epoch: [48][ 2000/10010]	Time  0.281 ( 0.753)	Data  0.000 ( 0.558)	Loss 2.4813e+00 (2.3327e+00)	Acc@1  46.09 ( 48.55)	Acc@5  70.31 ( 72.91)
+cur lr:  0.06519647293977776
+Epoch: [48][ 3000/10010]	Time  0.270 ( 0.748)	Data  0.001 ( 0.546)	Loss 2.7903e+00 (2.3386e+00)	Acc@1  37.50 ( 48.51)	Acc@5  67.19 ( 72.84)
+cur lr:  0.06507182726375735
+Epoch: [48][ 4000/10010]	Time  0.232 ( 0.747)	Data  0.000 ( 0.542)	Loss 2.7739e+00 (2.3434e+00)	Acc@1  38.28 ( 48.46)	Acc@5  66.41 ( 72.74)
+cur lr:  0.06494707847521455
+Epoch: [48][ 5000/10010]	Time  0.223 ( 0.746)	Data  0.000 ( 0.541)	Loss 2.3551e+00 (2.3471e+00)	Acc@1  50.00 ( 48.42)	Acc@5  71.88 ( 72.68)
+cur lr:  0.06482222742760675
+Epoch: [48][ 6000/10010]	Time  0.247 ( 0.747)	Data  0.000 ( 0.540)	Loss 2.2860e+00 (2.3501e+00)	Acc@1  49.22 ( 48.38)	Acc@5  73.44 ( 72.60)
+cur lr:  0.06469727497509092
+Epoch: [48][ 7000/10010]	Time  0.230 ( 0.747)	Data  0.000 ( 0.539)	Loss 2.4249e+00 (2.3531e+00)	Acc@1  52.34 ( 48.34)	Acc@5  72.66 ( 72.55)
+cur lr:  0.0645722219725178
+Epoch: [48][ 8000/10010]	Time  0.200 ( 0.748)	Data  0.000 ( 0.540)	Loss 2.6435e+00 (2.3558e+00)	Acc@1  43.75 ( 48.29)	Acc@5  67.19 ( 72.51)
+cur lr:  0.06444706927542601
+Epoch: [48][ 9000/10010]	Time  0.233 ( 0.752)	Data  0.000 ( 0.542)	Loss 2.5392e+00 (2.3570e+00)	Acc@1  38.28 ( 48.28)	Acc@5  72.66 ( 72.50)
+cur lr:  0.06432181774003624
+Epoch: [48][10000/10010]	Time  0.215 ( 0.752)	Data  0.000 ( 0.541)	Loss 2.4297e+00 (2.3586e+00)	Acc@1  46.88 ( 48.28)	Acc@5  72.66 ( 72.49)
+cur lr:  0.06419646822324539
+Test: [  0/391]	Time  5.387 ( 5.387)	Loss 1.1643e+00 (1.1643e+00)	Acc@1  71.09 ( 71.09)	Acc@5  90.62 ( 90.62)
+ * Acc@1 51.994 Acc@5 77.074
+Epoch: [49][    0/10010]	Time  7.006 ( 7.006)	Data  6.867 ( 6.867)	Loss 2.4402e+00 (2.4402e+00)	Acc@1  55.47 ( 55.47)	Acc@5  70.31 ( 70.31)
+cur lr:  0.06419521423617242
+Epoch: [49][ 1000/10010]	Time  0.272 ( 0.735)	Data  0.000 ( 0.529)	Loss 2.2870e+00 (2.3138e+00)	Acc@1  50.00 ( 49.00)	Acc@5  70.31 ( 73.16)
+cur lr:  0.0640697666286423
+Epoch: [49][ 2000/10010]	Time  0.256 ( 0.751)	Data  0.000 ( 0.536)	Loss 2.3700e+00 (2.3177e+00)	Acc@1  52.34 ( 49.00)	Acc@5  71.88 ( 73.04)
+cur lr:  0.06394422276409563
+Epoch: [49][ 3000/10010]	Time  0.221 ( 0.756)	Data  0.000 ( 0.541)	Loss 2.5267e+00 (2.3242e+00)	Acc@1  48.44 ( 48.89)	Acc@5  68.75 ( 72.97)
+cur lr:  0.06381858350142922
+Epoch: [49][ 4000/10010]	Time  0.226 ( 0.757)	Data  0.001 ( 0.541)	Loss 2.3098e+00 (2.3297e+00)	Acc@1  46.09 ( 48.76)	Acc@5  70.31 ( 72.88)
+cur lr:  0.06369284970019255
+Epoch: [49][ 5000/10010]	Time  0.233 ( 0.750)	Data  0.000 ( 0.537)	Loss 2.5618e+00 (2.3337e+00)	Acc@1  40.62 ( 48.72)	Acc@5  62.50 ( 72.81)
+cur lr:  0.06356702222058189
+Epoch: [49][ 6000/10010]	Time  0.225 ( 0.750)	Data  0.001 ( 0.536)	Loss 2.2091e+00 (2.3359e+00)	Acc@1  54.69 ( 48.68)	Acc@5  72.66 ( 72.77)
+cur lr:  0.06344110192343437
+Epoch: [49][ 7000/10010]	Time  0.265 ( 0.749)	Data  0.000 ( 0.534)	Loss 2.1691e+00 (2.3400e+00)	Acc@1  52.34 ( 48.63)	Acc@5  75.00 ( 72.71)
+cur lr:  0.06331508967022213
+Epoch: [49][ 8000/10010]	Time  0.231 ( 0.746)	Data  0.015 ( 0.533)	Loss 2.5467e+00 (2.3434e+00)	Acc@1  44.53 ( 48.57)	Acc@5  68.75 ( 72.67)
+cur lr:  0.06318898632304647
+Epoch: [49][ 9000/10010]	Time  0.243 ( 0.744)	Data  0.000 ( 0.531)	Loss 2.2565e+00 (2.3467e+00)	Acc@1  48.44 ( 48.52)	Acc@5  75.78 ( 72.62)
+cur lr:  0.06306279274463182
+Epoch: [49][10000/10010]	Time  0.229 ( 0.742)	Data  0.000 ( 0.529)	Loss 2.4263e+00 (2.3472e+00)	Acc@1  46.88 ( 48.50)	Acc@5  71.09 ( 72.62)
+cur lr:  0.06293650979832001
+Test: [  0/391]	Time  5.904 ( 5.904)	Loss 7.2445e-01 (7.2445e-01)	Acc@1  82.81 ( 82.81)	Acc@5  95.31 ( 95.31)
+ * Acc@1 52.804 Acc@5 77.896
+Epoch: [50][    0/10010]	Time  7.984 ( 7.984)	Data  7.866 ( 7.866)	Loss 2.2479e+00 (2.2479e+00)	Acc@1  51.56 ( 51.56)	Acc@5  72.66 ( 72.66)
+cur lr:  0.0629352465204717
+Epoch: [50][ 1000/10010]	Time  0.201 ( 0.728)	Data  0.062 ( 0.515)	Loss 2.2177e+00 (2.3113e+00)	Acc@1  50.78 ( 49.27)	Acc@5  78.91 ( 73.10)
+cur lr:  0.06280887418954144
+Epoch: [50][ 2000/10010]	Time  0.516 ( 0.726)	Data  0.406 ( 0.526)	Loss 2.3920e+00 (2.3214e+00)	Acc@1  50.78 ( 49.04)	Acc@5  72.66 ( 73.00)
+cur lr:  0.0626824142278745
+Epoch: [50][ 3000/10010]	Time  0.507 ( 0.725)	Data  0.397 ( 0.528)	Loss 2.0989e+00 (2.3287e+00)	Acc@1  50.78 ( 48.84)	Acc@5  78.91 ( 72.87)
+cur lr:  0.06255586750063505
+Epoch: [50][ 4000/10010]	Time  0.258 ( 0.729)	Data  0.000 ( 0.529)	Loss 2.2928e+00 (2.3302e+00)	Acc@1  49.22 ( 48.79)	Acc@5  72.66 ( 72.87)
+cur lr:  0.06242923487358093
+Epoch: [50][ 5000/10010]	Time  0.240 ( 0.730)	Data  0.000 ( 0.531)	Loss 2.2957e+00 (2.3309e+00)	Acc@1  50.00 ( 48.78)	Acc@5  74.22 ( 72.87)
+cur lr:  0.06230251721305762
+Epoch: [50][ 6000/10010]	Time  0.232 ( 0.730)	Data  0.000 ( 0.530)	Loss 2.5012e+00 (2.3312e+00)	Acc@1  46.88 ( 48.78)	Acc@5  68.75 ( 72.87)
+cur lr:  0.06217571538599236
+Epoch: [50][ 7000/10010]	Time  0.268 ( 0.730)	Data  0.000 ( 0.527)	Loss 2.6655e+00 (2.3340e+00)	Acc@1  42.97 ( 48.73)	Acc@5  70.31 ( 72.83)
+cur lr:  0.062048830259888235
+Epoch: [50][ 8000/10010]	Time  0.232 ( 0.729)	Data  0.000 ( 0.527)	Loss 2.3417e+00 (2.3356e+00)	Acc@1  50.78 ( 48.72)	Acc@5  71.88 ( 72.81)
+cur lr:  0.061921862702818145
+Epoch: [50][ 9000/10010]	Time  0.239 ( 0.729)	Data  0.000 ( 0.527)	Loss 2.2658e+00 (2.3374e+00)	Acc@1  51.56 ( 48.72)	Acc@5  70.31 ( 72.78)
+cur lr:  0.06179481358341901
+Epoch: [50][10000/10010]	Time  0.235 ( 0.728)	Data  0.000 ( 0.526)	Loss 2.5373e+00 (2.3377e+00)	Acc@1  44.53 ( 48.72)	Acc@5  71.09 ( 72.78)
+cur lr:  0.061667683770885676
+Test: [  0/391]	Time  5.595 ( 5.595)	Loss 9.2395e-01 (9.2395e-01)	Acc@1  82.81 ( 82.81)	Acc@5  93.75 ( 93.75)
+ * Acc@1 52.988 Acc@5 77.748
+Epoch: [51][    0/10010]	Time  6.903 ( 6.903)	Data  6.647 ( 6.647)	Loss 2.1878e+00 (2.1878e+00)	Acc@1  49.22 ( 49.22)	Acc@5  72.66 ( 72.66)
+cur lr:  0.06166641206820235
+Epoch: [51][ 1000/10010]	Time  3.928 ( 0.725)	Data  3.807 ( 0.518)	Loss 1.8769e+00 (2.2876e+00)	Acc@1  53.91 ( 49.51)	Acc@5  79.69 ( 73.58)
+cur lr:  0.06153920163844198
+Epoch: [51][ 2000/10010]	Time  4.432 ( 0.732)	Data  4.322 ( 0.520)	Loss 2.3966e+00 (2.2974e+00)	Acc@1  48.44 ( 49.44)	Acc@5  71.09 ( 73.41)
+cur lr:  0.0614119122642931
+Epoch: [51][ 3000/10010]	Time  3.306 ( 0.730)	Data  3.192 ( 0.517)	Loss 2.1672e+00 (2.3042e+00)	Acc@1  53.12 ( 49.36)	Acc@5  74.22 ( 73.29)
+cur lr:  0.06128454481659426
+Epoch: [51][ 4000/10010]	Time  0.981 ( 0.731)	Data  0.862 ( 0.522)	Loss 2.4937e+00 (2.3111e+00)	Acc@1  46.09 ( 49.17)	Acc@5  70.31 ( 73.21)
+cur lr:  0.06115710016671815
+Epoch: [51][ 5000/10010]	Time  3.307 ( 0.731)	Data  3.185 ( 0.522)	Loss 2.2737e+00 (2.3179e+00)	Acc@1  48.44 ( 49.03)	Acc@5  72.66 ( 73.09)
+cur lr:  0.06102957918656565
+Epoch: [51][ 6000/10010]	Time  1.511 ( 0.732)	Data  1.401 ( 0.522)	Loss 2.6923e+00 (2.3201e+00)	Acc@1  43.75 ( 49.01)	Acc@5  63.28 ( 73.04)
+cur lr:  0.060901982748559846
+Epoch: [51][ 7000/10010]	Time  0.241 ( 0.733)	Data  0.000 ( 0.523)	Loss 2.4600e+00 (2.3232e+00)	Acc@1  43.75 ( 48.96)	Acc@5  75.00 ( 73.01)
+cur lr:  0.060774311725640046
+Epoch: [51][ 8000/10010]	Time  0.274 ( 0.736)	Data  0.000 ( 0.525)	Loss 2.6513e+00 (2.3241e+00)	Acc@1  43.75 ( 48.96)	Acc@5  68.75 ( 73.01)
+cur lr:  0.060646566991255826
+Epoch: [51][ 9000/10010]	Time  0.335 ( 0.742)	Data  0.031 ( 0.529)	Loss 2.6841e+00 (2.3268e+00)	Acc@1  43.75 ( 48.90)	Acc@5  73.44 ( 72.96)
+cur lr:  0.060518749419361056
+Epoch: [51][10000/10010]	Time  0.235 ( 0.744)	Data  0.000 ( 0.530)	Loss 2.1789e+00 (2.3286e+00)	Acc@1  48.44 ( 48.88)	Acc@5  71.88 ( 72.93)
+cur lr:  0.06039085988440793
